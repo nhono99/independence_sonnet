@@ -1,0 +1,275 @@
+.container{
+  /*  margin: 0 10%;*/
+}
+section h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+/*ABOUT*/
+.about{
+  margin: 0;
+    padding: 0;
+}
+.about-top{
+    background-image: url("resources/img/about%20top%20division.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 35px;
+    background-position: center bottom;
+}
+.about-container{
+    background-color: #6d0f0f;
+    background-image: url("resources/img/about%20triangles.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-content{
+    display: flex;
+    font-size: 1.2rem;
+    align-content: center;
+    justify-content: center;
+    margin: 0 10%;
+    text-align: center;
+   
+}
+.about-start{
+   color: blue;
+}
+/*ABOUT*/
+/*FEAURES*/
+.features-top{
+    background-color: #6d0f0f;
+    background-image: url("resources/img/Features%20top%20division.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 174px;
+    background-position: center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features-container{
+    background-color: #6d0f0f;
+}
+.features-content{
+    background-color: #500909;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.features-box{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+}
+.features-box:nth-child(odd){
+  border: 5px solid #fff;
+}
+.features-box img{
+    padding: 10px 0;
+    width: 95%;
+}
+.features-box p{
+    padding: 10px 0;
+}
+.features-bot-paragraph{
+    display: block;
+    text-align: center;
+    margin: 0 150px;
+     font-size: 30px;
+}
+.features-gamers{
+    color: blue;
+}
+.features-bot{
+    background-color: #6d0f0f;
+    background-image: url("resources/img/Features%20bottom%20division.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 60px;
+    background-position: center top;  
+}
+.features-content-bot{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    align-content: center;
+}
+.features-box-bot{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+}
+.features-box-bot img{
+    padding: 10px 0;
+    width: 95%;
+}
+.features-bot-bot-paragraph{
+      display: block;
+    text-align: center;
+    margin: 0 150px;
+    font-size: 30px;
+}
+.features-bot-bot-bg{
+    background-color: #6d0f0f;
+    background-image: url("resources/img/features%20bottom%20shapes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center top;  
+   
+}
+/*FEAURES*/
+/*CE*/
+.crypto-exchange{
+      background-color: deepskyblue;
+   /* background-image: url("resources/img/CE%20section.png");
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    width: 100%;
+}
+.crypto-exchange-list{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.crypto-exchange-list a:nth-of-type(2),
+.crypto-exchange-list a:nth-of-type(3)
+{
+    margin-left: 1rem;
+}
+.crypto-exchange-list img{
+    max-width: 200px;
+}
+/*CE*/
+/*PS*/
+.ps{
+    background-color: #6d0f0f;
+    background-image: url("resources/img/problem%20triangles.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.ps-problem-content, .ps-solution-content{
+   margin: 0 10%;
+}
+/*PS*/
+/*TOKEN*/
+.token h3{
+    color: red;
+}
+.token-top{
+    background-color: white;
+    background-image: url("resources/img/problem%20bottom%20division.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center top;  
+    height: 400px;
+}
+.token-graph{
+    position: relative;
+    height: 500px;
+}
+.token-graph img{
+    max-width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*TOKE*/
+
+/*ROADMAP*/
+.roadmap{
+    text-align: center;
+    background-color: deepskyblue;
+}
+.roadmap-content img{
+    max-width: 50px;
+}
+.roadmap-left {
+    text-align: right;
+}
+.roadmap-right {
+    text-align: left;
+}
+/*ROADMAP*/
+
+/*ALLOCATION*/
+.allocation-content{
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.allocation-graph img{
+    width: 500px;
+}
+.allocation-data{
+    width: 500px;
+}
+.allocation-data p{
+    margin-top: 1rem;
+}
+/*ALLOCATION*/
+
+/*TEAM*/
+.team{
+     background-color: #58200b;
+}
+.team-content{
+   
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*CHAMPION FOR MOBILE!*/
+    flex-direction:row;
+    text-align: center;
+    padding: 5px;
+}
+.team-member{
+  
+  margin: 1rem;
+}
+.team-member img{
+    max-width: 150px;
+   
+}
+/*TEAM*/
+
+/*FAQ*/
+.faq-content-row{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+.faq-content-row div{
+    margin: 1rem;
+}
+/*FAQ*/
+footer{
+    width: 100%;
+    background-color: #543e53;
+}
+footer img{
+    width: 100%;
+}
+footer a{
+    margin: 10px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
