@@ -97,6 +97,205 @@
    .nav-icon-container{
       background-color: aqua;
     }
+     /*HEADER*/
+    .header-left{
+        display: block;
+        width: 100%;
+    }
+    .hero-banner{
+        padding-top: 20px;
+    }
+    .hero-banner img{
+        width: 400px;
+    }
+    .hero-text{
+        margin-top: 20px;
+    }
+    .header-available{
+        margin-top: 80px;
+    }
+    .button-token-container{
+        display: none;
+    }
+    .header-available p{
+       font-size: 2.5rem;
+    }
+    .header-available p:nth-child(2), .header-available p:nth-child(3){
+        font-size: 2rem;
+    }
+    .sale-box{
+        width: 100%;
+    }
+    .sale-point p{
+        width: 100px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    .header-right{
+        margin-top: 40px;
+        width: 95%;   
+        text-align: center;
+    }
+    header{
+        height: 1600px;
+    }
+    .banner .sale-fund-raised{
+        margin-top: 220px;
+    }
+    .button-token-container-2{
+       display: inline-block;
+       width: 80%;
+    }
+    /*HEADER END*/
+     /*ABOUT*/
+    .about-content{
+        font-size: 2.6rem;
+        margin: 30px 1.5%;
+    }
+    /*ABOUT END*/
+   /*FEATURES*/
+    .features-container{
+        text-align: center;
+    }
+    .features-content{
+        display: none;
+    }
+    .features-content-mobile{
+        display: inline-block;
+        text-align: center;
+        background-color: #332d3c;   
+        width: 80%;
+        margin-top: 20px;
+    }
+    .features-box{
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+        width: calc(100% - 20px);
+        font-size: 3rem;
+        vertical-align: middle;
+     
+    }
+    .features-box:nth-child(odd){
+        border: 10px solid #ff5e5e;
+    }
+ 
+    .features-box div:last-of-type{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-flow: column;
+        height: 150px;   
+    }
+    .features-box img{
+        padding: 5px 0;
+        max-width: 40%;
+    }
+    .features-bot-paragraph{
+        margin: 15px 1.5%;
+        font-size: 2.3rem;
+      /*  height: 200px;*/
+    }
+    .features-bot-bot-paragraph{
+        margin: 0px 1.5%;
+        padding-top: 25px;
+        font-size: 2.6rem;
+    }
+    .features-content-bot{
+        display: none;
+    }
+    .features-content-bot-mobile{
+        display: block;
+        text-align: center;
+        background-color: #3e2911;
+    }
+    .features-box-bot-twos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .features-box-bot{
+        display: inline-block;
+        width: 45%;
+        font-size: 2.5rem;
+    }
+    .features-box-bot:last-of-type{
+       font-size: 2.5rem;
+    }
+    .features-box-bot-below{
+        width: 100%;
+    }
+    .features-box-bot img{
+        width: 60%;
+    }
+    .features-box-bot-below img{
+        width: 40%;
+    }
+    
+    /*PS------------------------------------------------------------------------------------*/
+    
+    /*PS*/
+    /*TOKEN--------------------------------------------------------------------------------*/
+    .token-top{
+       
+    }
+    .token-content{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .token-graph{
+        display: block;
+        position: relative;
+        height: 320px;
+        width: 270px;
+    }
+    .token-graph img{
+        max-width: 270px;
+    }
+    .token-dist-list ul li{
+        font-size: 1.5rem;
+        padding: 26px 0 26px 84px;
+        background-size: 45px;
+
+    }
+    /*TOKEN end*/
+    /*ALLOCATION----------------------------------------------------------*/
+    .allocation-top{
+       /* background-image: none;*/
+        height: 100px;
+    }
+    .allocation-graph img{
+        max-width: 300px;
+    }
+    .allocation-content{
+        flex-flow: column;
+    }
+    .allocation-data ul li{
+       font-size: 1.5rem;
+    }
+    /*ALLOCATION end------------------------------------------------------*/
+    /*TEAM ---------------------------------------------------------------*/
+    .team-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .team-content{
+        width: 90%;
+    }
+    .team .team-title{
+        display: none;
+        
+    }
+    .team-title-mobile{
+        display: block;
+    }
+    /*TEAM end------------------------------------------------------------*/
 }
 @media only screen and (max-width:1024px) and (min-height:1366px){
     /*HEADER*/
@@ -256,12 +455,11 @@
         font-size: 1.5rem;
         padding: 26px 0 26px 84px;
         background-size: 45px;
-
     }
     /*TOKEN end*/
     /*ALLOCATION----------------------------------------------------------*/
     .allocation-top{
-        background-image: none;
+       /* background-image: none;*/
         height: 100px;
     }
     .allocation-graph img{
@@ -275,6 +473,15 @@
     }
     /*ALLOCATION end------------------------------------------------------*/
     /*TEAM ---------------------------------------------------------------*/
+    .team-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .team-content{
+        width: 90%;
+    }
     .team .team-title{
         display: none;
         
@@ -286,24 +493,376 @@
 }
 
 @media only screen and (max-width: 812px){
-    
+    .about-content{
+        font-size: 2.3rem;
+        margin: 30px 1.5%;
+    }
+     .features-bot-paragraph{
+        margin: 15px 1.5%;
+        font-size: 2rem;
+      /*  height: 200px;*/
+    }
+    .features-bot-bot-paragraph{
+        margin: 0px 1.5%;
+        padding-top: 25px;
+        font-size: 2.4rem;
+    }
+    .ps-problem-content, .ps-solution-content{
+        margin: 30px 1.5%;
+        font-size: 2.5rem;
+    }
+    .ps-solution-content{
+        margin-bottom: 0;
+    }
+    .roadmap h3{
+        width: 90%;
+        margin-right: 0;
+        margin-left: 30px;
+    }
 }
 @media only screen and (max-width:768px){
-   
+    .features-content-mobile .features-box p{
+        font-size: 2.7rem;
+    }
 }
 
 @media only screen and (max-width:736px){
-   
+   .features-bot-paragraph{
+        margin: 15px 1.5%;
+        font-size: 1.9rem;
+      /*  height: 200px;*/
+    }
+    .team-content{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:667px){
+    .about-content{
+        font-size: 2rem;
+        margin: 30px 1.5%;
+    }
+    .features-bot-paragraph{
+        margin: 15px 1.5% 0 1.5%;
+        font-size: 1.7rem;
+      /*  height: 200px;*/
+    }
+    .features-bot-bot-paragraph{
+        margin: 0px 1.5%;
+        padding-top: 25px;
+        font-size: 2.2rem;
+    }
+}
+@media only screen and (max-width:640px){
+    .about-content{
+        font-size: 2rem;
+        margin: 30px 1.5%;
+    }
+    .features-bot-paragraph{
+        margin: 15px 1.5% 0 1.5%;
+        font-size: 1.7rem;
+      /*  height: 200px;*/
+    }
+    .features-bot-bot-paragraph{
+        margin: 0px 1.5%;
+        padding-top: 25px;
+        font-size: 2.1rem;
+    }
     
+    .team-content{
+        width: 100%;
+    }
+   
+     .token-dist-list ul li{
+        font-size: 1.4rem;
+        padding: 20px 0 20px 84px;
+        background-size: 45px;
+    }
+    .allocation-data ul li{
+        font-size: 1.4rem;
+        padding: 20px 0 20px 84px;
+        background-size: 45px;
+    }
 }
 
-
 @media only screen and (max-width: 414px){
+     .button{
+        padding: 0;
+        margin: 0;
+    }
+    .banner-button{
+        font-size: 3rem;
+        padding: 30px 0px;
+    }
+    /*HEADER*/
+    .hero-banner img{
+        width: 300px;
+    }
+    .banner{
+        margin: 0 1.5% 0 1.5%;
+    }
+    .hero-text p{
+        font-size: 2rem;
+    }
+    .header-left{
+        display: block;
+        width: 100%;
+    }
+    .header-available{
+        margin-top: 40px;
+    }
+    .header-available p{
+       font-size: 1.8rem;
+    }
+    .header-available p:nth-child(2), .header-available p:nth-child(3){
+        font-size: 1.5rem;
+    }
+    .header-available div{
+        margin-bottom: 10px;
+    }
+    .header-right{
+       /* width: calc(100% - 20px);   
+        text-align: center;*/
+    }
+    header{
+        height: 1600px;
+    }
+    .banner .sale-box .sale-text{
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .sale-time{
+        padding-top: 10px;
+        width: calc(25% - 15px);
+        height: 100px;
+        margin-left: 10px;
+        
+    }
+    .sale-time p:first-of-type{
+        font-size: 4rem;
+    }
+    .sale-time p:last-of-type{
+       font-size: 1rem;
+    }
+    .banner .sale-fund-raised{
+        margin-top: 150px;
+    }
+    .sale-fund-raised p:first-child{
+        font-size: 5rem;   
+    }
+    .sale-fund-raised p:last-child{
+        margin-top: 5px;
+        font-size: 1.5rem;   
+    }
+    .button-token-container-2{
+       display: inline-block;
+       width: 80%;
+    }
+    .sale-bar{
+        width: calc(100% - 20px);
+        margin: 0 10px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    .sale-bar-text-top p:nth-child(1){
+        font-size: 1rem;
+        margin-left:  20px;
+    }
+    .sale-bar-text-bot{
+        font-size: 1rem;
+    }
+    .button-token-container-2{
+       margin-top: 20px;
+       width: 105%;
+    }
+     header{
+        height: 1200px;
+    }
+    /*HEADER END*/
+   .about-content{
+        font-size: 1.4rem;
+        margin: 30px 1.5%;
+    }
+    .about-content p{
+        line-height: 1.6rem;
+    }
+    .about-container{
+        height: 885px
+    }
+    /*FEATURES -------------------------------------------------*/
+    .features-content-mobile{
+        width: calc(100% - 20px);
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    .features-box{
+        width: calc(100% - 20px);
+        font-size: 1rem;
+    }
+    .features-box:nth-child(odd){
+        border: 10px solid #ff5e5e;
+    }
+    .features-box div{
+        width: 50%;
+    }
+    .features-box div:last-of-type{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-flow: column;
+        height: 150px;   
+    }
+    .features-box img{
+        padding: 5px 0;
+        max-width: 80%;
+    }
+    .features-content-mobile .features-box p {
+        font-size: 2rem;
+    }
+    .features-bot-paragraph{
+        margin: 15px 1.5%;
+        font-size: 1.4rem;
+      /*  height: 200px;*/
+    }
+    .features-bot-bot-paragraph{
+        margin: 0px 1.5%;
+        padding-top: 25px;
+        font-size: 1.7rem;
+    }
+    .features-content-bot-mobile{
+        display: block;
+        text-align: center;
+        background-color: #3e2911;
+    }
+    .features-box-bot-twos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .features-box-bot{
+        display: inline-block;
+        width: 45%;
+        font-size: 1.5rem;
+    }
+    .features-box-bot:last-of-type{
+       font-size: 2.5rem;
+    }
+    .features-box-bot-below{
+        width: 100%;
+    }
+    .features-box-bot img{
+        width: 60%;
+    }
+    .features-box-bot-below img{
+        width: 30%;
+    }
+    /*FEATURES END-------------------------------------------*/
+    .ps-problem-content, .ps-solution-content{
+        margin: 30px 1.5%;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        height: 300px;
+    }
+    .ps-solution-content{
+        margin-bottom: 0;
+    }
+    /*TOKEN--------------------------------------------------------------------------------*/
+    .token-graph{
+        height: 180px;
+        width: 150px;
+    }
+    .token-graph img{
+        max-width: 150px;
+        left: 0;
+    }
+    .token-dist-list ul{
+        padding: 1.5%;
+    }
+    .token-dist-list ul li{
+        font-size: 1.2rem;
+        padding: 16px 0 16px 54px;
+        background-size: 35px;
+    }
+    .token-container{
+        height: 750px;
+    }
+    /*TOKEN end*/
+    /*ALLOCATION----------------------------------------------------------*/
+    .allocation-top{
+       /* background-image: none;*/
+        height: 100px;
+    }
+    .allocation-graph img{
+        margin-top: 50px;
+        max-width: 150px;
+    }
+    .allocation-content{
+        flex-flow: column;
+    }
+    .allocation-data ul{
+       padding: 1.5%;
+    }
+    .allocation-data ul li{
+        font-size: 1.2rem;
+        padding: 16px 0 16px 54px;
+        background-size: 35px;
+    }
+    /*ALLOCATION end------------------------------------------------------*/
+    .roadmap-left {
+        padding-top: 10px;
+        width: 25%;
+        /*background-color: chartreuse;*/
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .roadmap-left img{
+        margin-right: 20px;
+    }
+    .roadmap-right {
+       /* background-color: aqua;*/
+        width: 70%;
+        text-align: left;
+        transform: rotate(5deg);
+        margin-top: 25px;
+        display: block;
+        font-size: 1.5rem;
+    }
+    .roadmap-right div:nth-child(1){
+        width: 80%;
+        border-bottom: 2px solid #ffcd6a;
+        margin-bottom: 10px;
+
+    }
+   .crypto-exchange-list img{
+        max-width: 100px;
+    }
+    .features-box-bot:last-of-type {
+        font-size: 1.5rem;
+    }
+    body .roadmap h3 {
+        background-color: black;
+        width: 80%;
+        margin: 30px;
+    }
    
 }
 @media only screen and (max-width: 375px){
-  
+    .about-content{
+        font-size: 1.3rem;
+    }
+    .features-bot-paragraph{
+        font-size: 1.4rem;
+    }
+    .features-bot-bot-paragraph{
+        margin: 0px 1.5%;
+        padding-top: 25px;
+        font-size: 1.6rem;
+    }
+     .features-content-mobile .features-box p {
+        font-size: 1.7rem;
+    }
 }

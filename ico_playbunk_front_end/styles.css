@@ -192,7 +192,7 @@ header{
     display: block;
 }
 .sale-time p:first-of-type{
-     font-family: londrina_solidregular;
+    font-family: londrina_solidregular;
     color: #e95151;
     font-size: 5rem;
 }
@@ -201,6 +201,9 @@ header{
 }
 .sale-time:nth-child(3){
     border-left: 5px solid #4894b2;
+    border-right: 5px solid #4894b2;
+}
+.sale-time:nth-child(4){
     border-right: 5px solid #4894b2;
 }
 .banner .sale-box .sale-text{
@@ -347,7 +350,7 @@ header{
 }
 .banner-button{
     font-family: londrina_solidregular;
-   color: orangered;
+    color: orangered;
     background-color: rgba(255, 255, 255, 0);
     font-size: 3.5rem;
     border: 8px solid orangered;
@@ -442,6 +445,9 @@ header{
     align-content: center;
     height: 445px;
 }
+.features-content-mobile{
+    display: none;
+}
 .features-box{
     padding: 0;
     margin: 0;
@@ -535,7 +541,7 @@ header{
 /*FEAURES*/
 /*CE*/
 .crypto-exchange{
-      background-color: deepskyblue;
+    background-color: deepskyblue;
    /* background-image: url("resources/img/CE%20section.png");
     background-repeat: no-repeat;*/
     background-size: cover;
@@ -711,13 +717,15 @@ header{
     margin: 0;
     padding-top: 10px;
     text-align: right;
-    width: 35%;
+    width: 25%;
     padding-left: 10%;
 }
 .roadmap-left img{
-    margin-right: 50px;
+    margin-right: 20px;
+    
 }
 .roadmap-right {
+    width: 25%;
     margin: 0;
     text-align: left;
     transform: rotate(5deg);
@@ -833,7 +841,7 @@ header{
     flex-wrap: wrap; /*CHAMPION FOR MOBILE!*/
     flex-direction:row;
     text-align: center;
-    padding: 5px;
+    padding 5px 0 5px 0;
 }
 .team-container{
     background: linear-gradient(#e1635c, #4894b2);
@@ -910,7 +918,7 @@ header{
 /*FAQ*/
 footer{
     width: 100%;
-    background-color: #543e53;
+   /* background-color: #543e53;*/
 }
 footer img{
     width: 100%;
@@ -918,7 +926,22 @@ footer img{
 footer a{
     margin: 10px;
 }
+.footer-top{
+    background-image: url("resources/img/footer%20top%20division.png");
+    background-size: contain;
+    height: 166px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
 .social-media{
     display: flex;
     justify-content: center;
+     background-color: #543e53;
+}
+.footer-bot{
+    background-image: url("resources/img/footer%20bottom%20division.png");
+    background-size: contain;
+    height: 22px;
+    background-position: left top;
+    background-repeat: no-repeat;
 }
