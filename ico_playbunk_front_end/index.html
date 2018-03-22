@@ -11,19 +11,110 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="/vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="/vendors/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet-font.css">
     <script src="main.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
             <nav class="sticky">
-                <ul>
-                    <li><a>about</a></li>
-                    <li><a>roadmap</a></li>
-                    <li><a>funding</a></li>
-                    <li><a>whitepaper</a></li>
-                </ul>
+                <a href="#" class="logo-link">
+                        <img src="resources/img/pb%20nav%20icon.png" alt="logo" class="logo">
+                </a>
+                <div class="row nav-icon-container">
+                         <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+              <!--  <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>-->
+                <div class="main-nav-container clearfix">
+                    <ul class="main-nav js--main-nav">
+                        <li ><a href="#">whitepaper</a></li>
+                        <li><a href="#">funding</a></li>
+                        <li><a href="#">roadmap</a></li>
+                        <li><a href="#">about</a></li>
+                    </ul>
+                </div>
+                
             </nav>
+            <div class="banner row">
+                <div class="header-left col span-1-of-2 clearfix">
+                    <div class="hero-banner row">
+                        <img src="resources/img/PB%20main%20logo.png">
+                    </div>
+                    <div class="hero-text row">
+                        <p>
+                            <span>&quot;</span>
+                            let's not forget to have <span class="hero-text-fun"><strong>FUN</strong></span>.
+                            <span>&quot;</span>
+                        </p>
+                    </div>
+                    <div class="header-available row">
+                        <div><p>Available in:</p></div>
+                        <p>1427.8</p>
+                        <p>1427.8</p>
+                    </div>
+                    <div class="button-token-container row">
+                         <a class="button banner-button" href="#">GET TOKENS NOW!</a>
+                    </div>
+                     
+                </div>
+                <div class="header-right col span-1-of-2">
+                    <div class="row sale-box">
+                        <p class="sale-text">Sale ends in:</p>
+                        <div class="sale-time col span-1-of-3">
+                            <p>02</p>
+                            <p>days</p>
+                        </div>
+                        <div class="sale-time col span-1-of-3">
+                            <p>18</p>
+                            <p>hours</p>
+                        </div>
+                        <div class="sale-time col span-1-of-3">
+                            <p>03</p>
+                            <p>minutes</p>
+                        </div>
+                        <div class="row sale-fund-raised">
+                            <p>$ 2.5M</p>
+                            <p>total raised</p>
+                        </div>
+                        <div class="row sale-bar">
+                            <div class="row">
+                                <div class="sale-bar-text-top">
+                                    <div class="sale-bar-text-top-left">
+                                        <p>$ 3M</p>
+                                    </div>
+                                   <div class="sale-bar-text-top-right">
+                                        <p>$ 3M</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="row sale-bar-progress">
+                                    <div class="progresbar-orange"></div>
+                                    <div class="progresbar-yellow"></div>
+                                    <div class="progresbar-green"></div>
+                                </div>
+                                <div class="sale-bar-text-bot">
+                                    <div class="sale-bar-text-bot-left">
+                                        <p>soft cap</p>
+                                    </div>
+                                    
+                                    <div class="sale-point">
+                                        <div class="row">|</div>
+                                        <p>$2.5M</p>
+                                    </div>
+                                    <div class="sale-bar-text-bot-left">
+                                        <p>max cap</p>
+                                    </div>    
+                                </div>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-token-container-2 row">
+                        <a class="button banner-button" href="#">GET TOKENS NOW!</a>
+                    </div>
+                </div>
+                
+            </div>
         </header>
         <section class="about">
             <div class="about-top">
@@ -37,16 +128,19 @@
                     </p>
                 </div>
             </div>
-            
+             <div class="about-bot">
+             
+            </div>
         </section>
         <section class="features">
-            <div class="features-top">
-                <h3>Features</h3>
-            </div>
+          <!--  <div class="features-top">
+             
+            </div>-->
             <div class="features-container">
+                <div class="features-top row"><h3>Features</h3></div>
                 <div class="features-content row">
                     <div class="features-box col span-1-of-5">
-                        <img src="resources/img/diverse%20games%20icon.png">\
+                        <img src="resources/img/diverse%20games%20icon.png">
                         <p>Diverse<br>Games</p>
                     </div>
                     <div class="features-box col span-1-of-5">
@@ -66,13 +160,58 @@
                         <p>Designer<br>Incentives</p>
                     </div>
                 </div>
+                <!--Mobile----------------------------------------------------->
+                 <div class="features-content-mobile row">
+                    <div class="features-box row">
+                        <div class="col span-1-of-2">
+                            <img src="resources/img/diverse%20games%20icon.png">
+                        </div>
+                        <div class="col span-1-of-2">
+                            <p>Diverse<br>Games</p>
+                        </div>
+                        
+                    </div>
+                    <div class="features-box row">
+                         <div class="col span-1-of-2">
+                            <img src="resources/img/market%20icon.png">
+                        </div>
+                        <div class="col span-1-of-2">
+                              <p>Marketplace</p> 
+                        </div>
+                    </div>
+                    <div class="features-box row">
+                        <div class="col span-1-of-2">
+                            <img src="resources/img/tournament%20icon.png">
+                        </div>
+                        <div class="col span-1-of-2">
+                            <p>Accessible<br>Tournaments</p>
+                        </div>                          
+                    </div>
+                    <div class="features-box row">
+                        <div class="col span-1-of-2">
+                            <img src="resources/img/unified%20platfrom%20icon.png">
+                        </div>
+                        <div class="col span-1-of-2">
+                           <p>Unified<br>Form</p>
+                        </div>                     
+                    </div>
+                     <div class="features-box row">
+                        <div class="col span-1-of-2">
+                           <img src="resources/img/designer%20incentives%20icon.png">
+                        </div>
+                        <div class="col span-1-of-2">
+                           <p>Designer<br>Incentives</p>
+                        </div>   
+                    </div>
+                </div>
+                <!--Mobile ENd------------------------------------------------->
                 <div class="features-bot-paragraph">
                       <p>For <span class="features-gamers">GAMERS</span>, the will be able to access quality games, perform peer-to-peer transactions fairly in our user marketplace, accrue benefits from custom content creation, and participate in competetive tournaments with lower barriers of entry</p>
                 </div>
                <div class="features-bot"></div>
                 <div class="features-content-bot row">
                      <div class="features-box-bot col span-1-of-3">
-                        <img src="resources/img/profit%20icon.png">\
+                        <img src="resources/img/profit%20icon.png">
                         <p>96% Profit</p>
                     </div>
                     <div class="features-box-bot col span-1-of-3">
@@ -84,6 +223,24 @@
                         <p>Connect, Collaborate, Create</p>
                     </div>
                 </div>
+                <!--Mobile---------------------------------------------------->
+                <div class="features-content-bot-mobile row">
+                    <div class="row features-box-bot-twos">
+                        <div class="features-box-bot col span-1-of-2">
+                            <img src="resources/img/profit%20icon.png">
+                            <p>96% Profit</p>
+                        </div>
+                        <div class="features-box-bot col span-1-of-2">
+                             <img src="resources/img/discoverability%20icon.png">
+                            <p>Discoverability</p>
+                        </div>
+                    </div>
+                    <div class="features-box-bot features-box-bot-below row">
+                         <img src="resources/img/connect%20icon.png">
+                        <p>Connect, Collaborate, Create</p>
+                    </div>
+                </div>
+                <!--Mobile end------------------------------------------------>
                 <div class="features-bot-bot-bg">
                      <div class="features-bot-bot-paragraph">
                           <p>For <span class="features-gamers">DEVELOPERS AND PUBLISHERS</span>, the freedom with our decentralized freelancing platform Creator's lounge. They will also enjoy 96% profit on every game sale, a better discovery algorithm and targeted ads system for their titles, and an accomodating space for games created on the blockchain</p>
@@ -99,6 +256,7 @@
                   <a href="http://www.xe.com/"><img src="resources/img/team/ronald.png" alt="logo"></a>
                   <a href="http://www.xe.com/"><img src="resources/img/team/ronald.png" alt="logo"></a>
             </div>
+            <div class="crypto-bot"></div>
         </section>
         <section class="ps">
             <div class="ps-problem">
@@ -115,139 +273,188 @@
             </div>
         </section>
         <section class="token">
-            <div class="token-top">
-                 <h3>token sale distribution</h3>
+            <div class="token-top">  
             </div>
             <div class="token-container row">
-                <div class="token-graph col span-1-of-2">
-                    <img src="resources/img/red.png" alt="red">
-                    <img src="resources/img/blue.png" alt="red">
-                    <img src="resources/img/yellow.png" alt="red">
-                    <img src="resources/img/purple.png" alt="red">
-                    <img src="resources/img/green.png" alt="red">
-                    
+                <div class="token-header row"><h3>token distribution</h3></div>
+                <div class="token-content">
+                    <div class="token-graph">
+                        <img src="resources/img/red.png" alt="red">
+                        <img src="resources/img/blue.png" alt="red">
+                        <img src="resources/img/yellow.png" alt="red">
+                        <img src="resources/img/purple.png" alt="red">
+                        <img src="resources/img/green.png" alt="red">
+
+                    </div>
+                    <div class="token-dist-list">
+                        <ul>
+                            <li>40% Token Sale</li>
+                            <li>25% Advisors & Strategic Partnerships</li>
+                            <li>20% Long-term Reserve</li>
+                            <li>10% Team & Investors</li>
+                            <li>5% Reward & Bounty</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col span-1-of-2">
-                    <ul>
-                        <li>40% Token Sale</li>
-                        <li>25% Advisors & Strategic Partnerships</li>
-                        <li>20% Long-term Reserve</li>
-                        <li>10% Team & Investors</li>
-                        <li>5% Reward & Bounty</li>
-                    </ul>
-                </div>
+                
             </div>
            
         </section>
         <section class="roadmap">
-            <h3>roadmap</h3>    
+           <div class="roadmap-top"></div>
             <div class="roadmap-content row">
-                <div class="roadmap-left col span-1-of-2">
-                    <div><img src="resources/img/roadmap%20circle.png"></div>
-                    <div><img src="resources/img/roadmap%20linetrace.png"></div>
+                <div class="row">
+                     <h3>roadmap</h3>    
                 </div>
-                <div class="roadmap-right col span-1-of-2">
-                    <div><p>MONTH DAY 2018</p></div>
-                    <div><p>ASDSDASDADSAD</p></div>
+                <div class="row">
+                    <div class="roadmap-left col span-1-of-2">
+                        <div><img src="resources/img/roadmap%20circle.png"></div>
+                        <div><img src="resources/img/roadmap%20linetrace.png"></div>
+                    </div>
+                    <div class="roadmap-right col span-1-of-2">
+                        <div><p>MONTH DAY 2018</p></div>
+                        <div><p>Token Sale</p></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="roadmap-left col span-1-of-2">
+                        <div><img src="resources/img/roadmap%20circle.png"></div>
+                        <div>
+                            <div>
+                                <img src="resources/img/roadmap%20linetrace.png">
+                            </div>
+                            <div>
+                                <img src="resources/img/roadmap%20linetrace.png">
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="roadmap-right col span-1-of-2">
+                        <div><p>MONTH DAY 2018</p></div>
+                        <div>
+                            <p>Mahabaaaaaaaa</p>
+                            <p>Mahabaaaaaaaa</p>
+                            <p>Mahabaaaaaaaa</p>
+                            <p>Mahabaaaaaaaa</p>
+                        
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="roadmap-bot"></div>
         </section>
         <section class="allocation">
-            <h3>funds allocation</h3>
-            <div class="allocation-content">
-                <div class="allocation-graph">
-                    <img src="resources/img/fund%20alloc%20pie%20chart.png" alt="cylinder">
+            <div class="allocation-container">
+                <div class="allocation-top row">
+                    <h3>funds allocation</h3>
                 </div>
-                <div class="allocation-data">
-                    <ul>
-                        <li>40% Marketing & Business Development</li>
-                        <li>34% Development</li>
-                        <li>20% Partnerships</li>
-                        <li>4% General & Administration</li>
-                        <li>2% Legal & Accounting</li>
-                    </ul>
+                <div class="allocation-content row">
+                    <div class="allocation-graph">
+                        <img src="resources/img/fund%20alloc%20pie%20chart.png" alt="cylinder">
+                    </div>
+                    <div class="allocation-data">
+                        <ul>
+                            <li>40% Marketing & Business Development</li>
+                            <li>34% Development</li>
+                            <li>20% Partnerships</li>
+                            <li>4% General & Administration</li>
+                            <li>2% Legal & Accounting</li>
+                        </ul>
+                    </div>
                 </div>
+             
             </div>
         </section>
         <section class="team">
-            <h3>team</h3>
-            <div class="team-content">
-              <div class="team-member">
-                    <img src="resources/img/team/mikey.png" alt="taeyeon">
-                    <p><strong>Mikey Arboleda</strong></p>
-                    <p>CEO & Creative Director</p>
+            <div class="team-top"></div>
+           <!-- <h3 class="team-title">team</h3>-->
+            <div class="team-container row">
+                <h3 class="team-title-mobile">team</h3>
+                <div class="team-content">
+                  <div class="team-member">
+                        <img src="resources/img/team/mikey.png" alt="taeyeon">
+                        <p><strong>Mikey Arboleda</strong></p>
+                        <p>CEO & Creative Director</p>
+                    </div>
+                </div>
+                <div class="team-content">
+
+                    <div class="team-member">
+                        <img src="resources/img/team/erico.png" alt="taeyeon">
+                        <p><strong>Erico Nolasco</strong></p>
+                        <p>Development Manager</p>
+                    </div>
+                     <div class="team-member">
+                        <img src="resources/img/team/bill.png" alt="taeyeon">
+                        <p><strong>Bill Cinense</strong></p>
+                        <p>Operations Manager</p>
+                    </div>
+                     <div class="team-member">
+                        <img src="resources/img/team/lee.png" alt="taeyeon">
+                        <p><strong>Lee Ronquillo</strong></p>
+                        <p>Community and Marketing Manager</p>
+                    </div>
+                     <div class="team-member">
+                        <img src="resources/img/team/jr.png" alt="taeyeon">
+                        <p><strong>JR Cortes</strong></p>
+                        <p>Senior Developer</p>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <div class="team-member">
+                        <img src="resources/img/team/kit.png" alt="taeyeon">
+                        <p><strong>Kit Tumbagahan</strong></p>
+                        <p>Mid-Level Developer</p>
+                    </div>
+                     <div class="team-member">
+                        <img src="resources/img/team/ronald.png" alt="taeyeon">
+                        <p><strong>Ronald Abellano</strong></p>
+                        <p>Junior Developer</p>
+                    </div>
+                     <div class="team-member">
+                        <img src="resources/img/team/elle.png" alt="taeyeon">
+                        <p><strong>Elle De Pedro</strong></p>
+                        <p>Lead Writer</p>
+                    </div>
+                     <div class="team-member">
+                        <img src="resources/img/team/tiff.png" alt="taeyeon">
+                        <p><strong>Tiff Corrine</strong></p>
+                        <p>Lead Writer</p>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <div class="team-member">
+                        <img src="resources/img/team/mark.png" alt="taeyeon">
+                        <p><strong>Mark Bersola</strong></p>
+                        <p>Senior Artist</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="resources/img/team/dwayne.png" alt="taeyeon">
+                        <p><strong>Dwayne Maico</strong></p>
+                        <p>Junior Artist</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="resources/img/team/kenneth.png" alt="taeyeon">
+                        <p><strong>Kenneth Sofia</strong></p>
+                        <p>Junior Artist</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="resources/img/team/liam.png" alt="taeyeon">
+                        <p><strong>Liam Tolentino</strong></p>
+                        <p>Community Management Associate</p>
+                    </div>
                 </div>
             </div>
-            <div class="team-content">
-              
-                <div class="team-member">
-                    <img src="resources/img/team/erico.png" alt="taeyeon">
-                    <p><strong>Erico Nolasco</strong></p>
-                    <p>Development Manager</p>
-                </div>
-                 <div class="team-member">
-                    <img src="resources/img/team/bill.png" alt="taeyeon">
-                    <p><strong>Bill Cinense</strong></p>
-                    <p>Operations Manager</p>
-                </div>
-                 <div class="team-member">
-                    <img src="resources/img/team/lee.png" alt="taeyeon">
-                    <p><strong>Lee Ronquillo</strong></p>
-                    <p>Community and Marketing Manager</p>
-                </div>
-                 <div class="team-member">
-                    <img src="resources/img/team/jr.png" alt="taeyeon">
-                    <p><strong>JR Cortes</strong></p>
-                    <p>Senior Developer</p>
-                </div>
-                 <div class="team-member">
-                    <img src="resources/img/team/kit.png" alt="taeyeon">
-                    <p><strong>Kit Tumbagahan</strong></p>
-                    <p>Mid-Level Developer</p>
-                </div>
-                 <div class="team-member">
-                    <img src="resources/img/team/ronald.png" alt="taeyeon">
-                    <p><strong>Ronald Abellano</strong></p>
-                    <p>Junior Manager</p>
-                </div>
-                 <div class="team-member">
-                    <img src="resources/img/team/elle.png" alt="taeyeon">
-                    <p><strong>Elle De Pedro</strong></p>
-                    <p>Lead Writer</p>
-                </div>
-                 <div class="team-member">
-                    <img src="resources/img/team/tiff.png" alt="taeyeon">
-                    <p><strong>Tiff Corrine</strong></p>
-                    <p>Lead Writer</p>
-                </div>
-                 <div class="team-member">
-                    <img src="resources/img/team/mark.png" alt="taeyeon">
-                    <p><strong>Mark Bersola</strong></p>
-                    <p>Senior Artist</p>
-                </div>
-                <div class="team-member">
-                    <img src="resources/img/team/dwayne.png" alt="taeyeon">
-                    <p><strong>Dwayne Maico</strong></p>
-                    <p>Junior Artist</p>
-                </div>
-                <div class="team-member">
-                    <img src="resources/img/team/kenneth.png" alt="taeyeon">
-                    <p><strong>Kenneth Sofia</strong></p>
-                    <p>Junior Artist</p>
-                </div>
-                <div class="team-member">
-                    <img src="resources/img/team/liam.png" alt="taeyeon">
-                    <p><strong>Liam Tolentino</strong></p>
-                    <p>Community Management Associate</p>
+        </section>
+        <section class="stats">
+            <div class="stats-container">
+                <div class="stats-content">
+                    <h3>stats</h3>
                 </div>
             </div>
-         
         </section>
-        <section>
-            <h3>statistics</h3>
-        </section>
-        <section>
+        <section class="bounty">
             <h3>bounty program</h3>
+            <div class="bounty-bot"></div>
         </section>
         <section class="faq">
             <h3>faq</h3>

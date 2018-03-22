@@ -1,11 +1,288 @@
 @media only screen and (max-width:1366px){
-   
+   nav{
+       background-color: rgba(255, 255, 255, 0);
+    }
+    .nav-icon-container{
+        text-align: center;
+        vertical-align: middle;
+        display: block;
+      
+    }
+    .mobile-nav-icon{
+        color: white;
+        margin-top: 1%;
+        display: inline-block;
+        padding-top: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 15px;
+		border: 2px solid #795f8f;
+		background-color: #795f8f;
+        
+    }
+    .main-nav{
+        display: block;
+        float: right;
+        display: none;
+		width: 110px;
+		margin-right: 2%;
+        text-align: center;
+    }
+    .main-nav li{
+		height: 50px;
+		width: 100%;
+		text-align: right;
+		
+		margin: 2px;
+		font-size: 60%;
+	}
+	.main-nav li a{
+        text-align: center;
+		display: inline-block;
+        color: #4a365b;
+	}
+    .main-nav li{display: block;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: inline-block;
+        border: 0;
+        padding: 10px;
+        font-size: 100%;
+    }
+    .main-nav li a:hover,
+    .main-nav li a:active{
+       border: 0;
+    }
+    .nav-container
+    {
+        z-index: 9999; /*always on top of other elements*/
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 10px 0;
+    }
+    .sticky .main-nav{
+        margin-top: 10px;
+    }
+    
+    /*HEADER*/
+    .banner{
+        margin-left: 4%;
+    }
+    .hero-text p{
+        font-size: 2.6rem;
+    }
+    /*HEADER END*/
+    /*ABOUT*/
+    .about-content{
+        font-size: 2.7rem;
+        margin: 30px 10%;
+    }
+    /*ABOUT END*/
+   /*FEATURES*/
+    .features-bot-paragraph{
+        margin: 15px 150px;
+        font-size: 2.3rem;
+      /*  height: 200px;*/
+    }
+    .features-bot-bot-paragraph{
+        margin: 0px 200px;
+        padding-top: 25px;
+        font-size: 2.6rem;
+    }
+   /*FEATURES END*/
 }
 @media only screen and (max-width:1024px){
-   
+   .nav-icon-container{
+      background-color: aqua;
+    }
 }
 @media only screen and (max-width:1024px) and (min-height:1366px){
-   
+    /*HEADER*/
+   .nav-icon-container{
+      background-color: red;
+    }
+    .header-left{
+        display: block;
+        width: 100%;
+    }
+    .hero-banner{
+        padding-top: 20px;
+    }
+    .hero-banner img{
+        width: 400px;
+    }
+    .hero-text{
+        margin-top: 20px;
+    }
+    .header-available{
+        margin-top: 80px;
+    }
+    .button-token-container{
+        display: none;
+    }
+    .header-available p{
+       font-size: 2.5rem;
+    }
+    .header-available p:nth-child(2), .header-available p:nth-child(3){
+        font-size: 2rem;
+    }
+    .sale-box{
+        width: 100%;
+    }
+    .header-right{
+        margin-top: 40px;
+        width: 95%;   
+        text-align: center;
+    }
+    header{
+        height: 1600px;
+    }
+    .banner .sale-fund-raised{
+        margin-top: 220px;
+    }
+    .button-token-container-2{
+       display: inline-block;
+       width: 80%;
+    }
+    /*HEADER END*/
+     /*ABOUT*/
+    .about-content{
+        font-size: 2.6rem;
+        margin: 30px 1.5%;
+    }
+    /*ABOUT END*/
+   /*FEATURES*/
+    .features-container{
+        text-align: center;
+    }
+    .features-content{
+        display: none;
+    }
+    .features-content-mobile{
+        display: inline-block;
+        text-align: center;
+        background-color: #332d3c;   
+        width: 70%;
+        margin-top: 20px;
+    }
+    .features-box{
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+        width: calc(100% - 20px);
+        font-size: 3rem;
+        vertical-align: middle;
+     
+    }
+    .features-box:nth-child(odd){
+        border: 10px solid #ff5e5e;
+    }
+ 
+    .features-box div:last-of-type{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-flow: column;
+        height: 150px;   
+    }
+    .features-box img{
+        padding: 5px 0;
+        max-width: 40%;
+    }
+    .features-bot-paragraph{
+        margin: 15px 1.5%;
+        font-size: 2.3rem;
+      /*  height: 200px;*/
+    }
+    .features-bot-bot-paragraph{
+        margin: 0px 1.5%;
+        padding-top: 25px;
+        font-size: 2.6rem;
+    }
+    .features-content-bot{
+        display: none;
+    }
+    .features-content-bot-mobile{
+        display: block;
+        text-align: center;
+        background-color: #3e2911;
+    }
+    .features-box-bot-twos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .features-box-bot{
+        display: inline-block;
+        width: 40%;
+        font-size: 3rem;
+    }
+    .features-box-bot:last-of-type{
+       font-size: 3rem;
+    }
+    .features-box-bot-below{
+        width: 60%;
+    }
+    .features-box-bot img{
+        width: 60%;
+    }
+    /*PS------------------------------------------------------------------------------------*/
+    
+    /*PS*/
+    /*TOKEN--------------------------------------------------------------------------------*/
+    .token-top{
+       
+    }
+    .token-content{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .token-graph{
+        display: block;
+        position: relative;
+        height: 320px;
+        width: 270px;
+    }
+    .token-graph img{
+        max-width: 270px;
+    }
+    .token-dist-list ul li{
+        font-size: 1.5rem;
+        padding: 26px 0 26px 84px;
+        background-size: 45px;
+
+    }
+    /*TOKEN end*/
+    /*ALLOCATION----------------------------------------------------------*/
+    .allocation-top{
+        background-image: none;
+        height: 100px;
+    }
+    .allocation-graph img{
+        max-width: 300px;
+    }
+    .allocation-content{
+        flex-flow: column;
+    }
+    .allocation-data ul li{
+       font-size: 1.5rem;
+    }
+    /*ALLOCATION end------------------------------------------------------*/
+    /*TEAM ---------------------------------------------------------------*/
+    .team .team-title{
+        display: none;
+        
+    }
+    .team-title-mobile{
+        display: block;
+    }
+    /*TEAM end------------------------------------------------------------*/
 }
 
 @media only screen and (max-width: 812px){
