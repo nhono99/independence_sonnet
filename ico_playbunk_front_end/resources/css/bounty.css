@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("../img/bg pattern.jpg");
+    width: 100%;    
+    overflow-x: hidden;
+    font-size: 120%;
+}
+
+.content
+{
+    width: 800px;
+    margin: auto;
+    margin-top: -300px;    
+    padding-right: 20px;
+    font-family: comfortaaregular;
+}
+
+.textContent
+{
+    font-size: 120%;
+}
+
+h1
+{
+    text-align: center;
+    color: #33B6DF;
+}
+
+p
+{
+    text-align: justify;
+    text-justify: inter-character;
+    font-size: 120%;
+    padding-bottom: 30px;
+}
+
+.header
+{
+    margin: 15px 0 0 5%;
+    width: 200px;
+    /* position: fixed;     */
+}
+
+.header img
+{
+    width: 80%;
+}
+
+.top-banner
+{    
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;   
+    /* width: 100%;      */
+}
+
+.imageContent
+{
+    display: block;    
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #33B6DF;
+}
+
+.noMargin
+{
+    margin: 0;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.centerText
+{
+    text-align: center;
+}
+
+.font
+{
+    font-size: 120%;
+}
+
+.bannerImage
+{
+    width: 70%;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;    
+}
+
+.red
+{
+    color: #E95151;
+}
+
+@media only screen and (max-width: 799px)
+{
+    .content
+    {
+        width: 100%;
+        margin: auto;
+        margin-top: -300px;    
+        padding-right: 20px;
+        font-family: comfortaaregular;
+    }
+
+    p
+    {
+        text-align: justify;
+        text-justify: inter-character;
+        font-size: 120%;
+        padding-bottom: 30px;
+        color: red;
+    }
+
+    .font
+    {
+        font-size: 120%;
+        color: red;
+    }
+
+    .textContent
+    {
+        font-size: 120%;
+        color: red;
+    }
+}

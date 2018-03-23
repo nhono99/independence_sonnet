@@ -1009,6 +1009,9 @@ header{
     margin-bottom: 10px;
     
 }
+.faq a{
+    color: deepskyblue;
+}
 /*FAQ*/
 footer{
     width: 100%;
