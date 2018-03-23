@@ -647,6 +647,9 @@
     .pre-sale-button-buy-token-container-mobile a{
         font-size: 2.7rem;
     }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.5rem;
+    }
 }
 @media only screen and (max-width:640px){
     .about-content{
@@ -919,7 +922,7 @@
     }
     .roadmap-right {
        /* background-color: aqua;*/
-        width: 70%;
+        width: 60%;
         text-align: left;
         transform: rotate(5deg);
         margin-top: 25px;
@@ -932,6 +935,19 @@
         margin-bottom: 10px;
 
     }
+    /*--*/
+    .roadmap-right div:nth-child(2){
+        width: 200px;
+    }
+    .roadmap-right div:nth-child(1) p{
+        font-family: londrina_solidregular;
+        font-size: 3rem;
+    }
+    .roadmap-right div:nth-child(2) p{
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+    /*----*/
    .crypto-exchange-list img{
         max-width: 100px;
     }
@@ -943,7 +959,9 @@
         width: 80%;
         margin: 30px;
     }
-   
+    .roadmap{
+       /* display: none;*/
+    }
 }
 @media only screen and (max-width: 375px){
     .about-content{
