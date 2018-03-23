@@ -76,7 +76,7 @@ body{
 }
 section h3{
     font-size: 4rem;
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     text-align: center;
     color: white;
      font-family: londrina_solidregular;
@@ -102,15 +102,18 @@ nav ul{
     list-style: none;
     margin-right: 2%;
     margin-top: 15px;
+ 
 }
 nav ul li{
     font-family: comfortaabold;
-    float: right;
+    float: center;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    margin-left: 1%;
+    margin: 0 2%;
     color: #416a95;
+    font-size: 1rem;
+    
 }
 .mobile-nav-icon{
     float: right;
@@ -135,6 +138,7 @@ nav ul li{
 .main-nav-container{
     overflow-y: visible;
     padding-top: 10px;
+    width: 100%;
 }
 .nav-whitepaper-link{
     position: relative;
@@ -474,6 +478,7 @@ header{
 }
 .features-container{
    background-color: #423a50;   
+     
 }
 .features-content{
     background-color: #332d3c;   
@@ -523,8 +528,8 @@ header{
    
 }
 .features-bot{
-   background-color: #543e53;
-    background-image: url("resources/img/Features%20bottom%20division.png");
+    background-color:  #423a50;
+   /* background-image: url("resources/img/Features%20bottom%20division.png");*/
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
@@ -532,7 +537,7 @@ header{
     background-position: center top;  
 }
 .features-content-bot{
-     background-color: #543e53;
+     background-color:  #423a50;
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -567,8 +572,8 @@ header{
     font-size: 3rem;
 }
 .features-bot-bot-bg{
-    background-color: #543e53;
-    background-image: url("resources/img/features%20bottom%20shapes.png");
+    background-color:  #423a50;
+   /* background-image: url("resources/img/features%20bottom%20shapes.png");*/
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -640,7 +645,7 @@ header{
    color: #f74646;
 }
 .token-top{
-    background-image: url("resources/img/problem%20bottom%20division.png");
+    background-image: url("resources/img/pre%20sale%20bottom%20division.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -742,14 +747,24 @@ header{
       background-color: #33b6df;
 }
 .roadmap-content img{
-    
     max-width: 50px;
 }
 .roadmap-right div:nth-child(1){
-    width: 300px;
+    width: 400px;
     border-bottom: 2px solid #ffcd6a;
     margin-bottom: 10px;
-    
+}
+.roadmap-right div:nth-child(2){
+    width: 400px;
+ 
+}
+.roadmap-right div:nth-child(1) p{
+    font-family: londrina_solidregular;
+    font-size: 3rem;
+}
+.roadmap-right div:nth-child(2) p{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
 }
 .roadmap-left {
     margin: 0;
@@ -920,7 +935,15 @@ header{
 /*STATS*/
 /*BOUNTY*/
 .bounty{
-    background-color: #33b6df;
+    background-image: url("resources/img/stats%20bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:543px;
+    margin-bottom: 100px;
+}
+.bounty h3{
+    display: block;
+    color:  #f74646;
 }
 .bounty-bot{
     background-image: url("resources/img/bounty%20tetris%20division.png");
@@ -928,7 +951,33 @@ header{
     background-size: cover;
     width: 100%;
     height: 106px;
-  
+}
+.bounty-content{
+    padding-top: 50px;
+    display: block;
+}
+.bounty-content p{
+    color: black;
+    text-align: center;
+    margin: 5% 15% 0 15%;
+    font-size: 2rem;
+}
+.button-bounty-container{
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+.button-bounty-container a{
+    display: block;
+    width: 15%;
+    font-size: 2rem;
+    padding: 10px 10px 10px 10px;
+}
+.button-bounty-container button{
+    
 }
 /*BOUNTY*/
 /*FAQ*/
@@ -941,7 +990,7 @@ header{
 .faq-content-row{
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     font-size: 1.2rem;
     flex-wrap: wrap;
@@ -952,6 +1001,7 @@ header{
 }
 .faq-content-row p:nth-child(1){
     color: #ff5e5e;
+    margin-bottom: 10px;
 }
 /*FAQ*/
 footer{
@@ -1063,3 +1113,63 @@ footer a{
     padding: 10px 5px 0px 0px;
 }
 /*PRESALE*/
+.token-sale-details{
+    background-color: #543e53;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.token-sale-details-table{
+    border-collapse: collapse;
+    display: inline-block;
+}
+.token-sale-details-table,
+.token-sale-details-table th,
+.token-sale-details-table td{
+    border: 1px solid yellow;
+    font-family: comfortaaregular;
+}
+.token-sale-details-table td{
+    padding: 10px 20px;
+}
+.token-sale-details-table td:first-of-type{
+    text-align: left;
+}
+.token-sale-details-table-container{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.token-sale-details-info{
+    text-align: center;
+    margin: 2% 17% 0 17%;
+}
+.token-sale-details-info p{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    padding-bottom: 40px;
+}
+.token-sale-details-top-div{
+    background-image: url("resources/img/token%20sale%20upper%20division.png");
+    background-size: contain;
+    height: 62px;
+    background-repeat: no-repeat;
+}
+.pre-sale-and-bonus{
+    background-color: #423a50;
+    background-image: url("resources/img/pre%20sale%20design%20background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 737px;
+}
+.pre-sale-and-bonus-content{
+    margin: 5% 18% 0 18%;
+    text-align: center;
+}
+.pre-sale-and-bonus-content p{
+   font-size: 1.7rem;
+    line-height: 1.8rem;
+  
+}
+.pre-sale-and-bonus-title{
+    padding-top: 20px;
+}

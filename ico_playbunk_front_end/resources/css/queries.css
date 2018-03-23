@@ -2,6 +2,12 @@
    nav{
        background-color: rgba(255, 255, 255, 0);
     }
+/*    nav ul li{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }*/
     .nav-icon-container{
         text-align: center;
         vertical-align: middle;
@@ -24,14 +30,15 @@
         display: block;
         float: right;
         display: none;
-		width: 110px;
-		margin-right: 2%;
+		width: 210px;
+		margin-right: 0;
         text-align: center;
+        background-color: white;
     }
     .main-nav li{
 		height: 50px;
 		width: 100%;
-		text-align: right;
+		text-align: center;
 		
 		margin: 2px;
 		font-size: 60%;
@@ -566,6 +573,34 @@
         width: 90%;
         margin-right: 0;
         margin-left: 30px;
+    }
+    .button-bounty-container a{
+        width: 200px;
+        font-size: 1.8rem;
+    }
+    .token-sale-details-table{
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+    }
+    .token-sale-details-info{
+          margin-left: 1.5%;
+      margin-right: 1.5%;
+    }
+    .bounty{
+        background-color: rebeccapurple;
+        margin-bottom: 50px;
+    }
+     .bounty-content p{
+        font-size: 1.8rem;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+    .pre-sale-and-bonus-content{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.7rem;
     }
 }
 @media only screen and (max-width:768px){

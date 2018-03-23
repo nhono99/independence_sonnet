@@ -1,0 +1,3 @@
+[submodule "ico_playbunk_front_end/testo/test"]
+	path = ico_playbunk_front_end/testo/test
+	url = https://jrdogbeard@bitbucket.org/dogbeardgames/playbunk_ico.git
