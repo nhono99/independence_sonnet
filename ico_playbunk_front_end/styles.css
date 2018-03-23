@@ -1060,12 +1060,12 @@ footer a{
 }
 .header-presale .progresbar-yellow{
     left: 0;
-    width: 5%;
+    width: 0;
     background-color: orange;
 }
 .header-presale .progresbar-orange{
-    width: 96%;
-    left: 4%;
+    width: 100%;
+    left: 0;
 }
 .pre-sale-button-buy-token-container-mobile{
     margin-top: 30px;
