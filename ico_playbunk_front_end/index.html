@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="/vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="/vendors/css/ionicons.css">
-    <link rel="stylesheet" type="text/css" href="fonts/stylesheet-font.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/stylesheet-font.css">
     <script src="main.js"></script>
 </head>
 <body>
@@ -27,18 +27,17 @@
               <!--  <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>-->
                 <div class="main-nav-container clearfix">
                     <ul class="main-nav js--main-nav">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Token Sale Details</a></li>
-                        <li><a href="#">Token Distribution</a></li>
-                        <li><a href="#">Roadmap</a></li>
-                        <li><a href="#">Fund Allocation</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Bounty Program</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#tsd">Token Sale Details</a></li>
+                        <li><a href="#td">Token Distribution</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                        <li><a href="#fa">Fund Allocation</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#bounty">Bounty Program</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                     </ul>
                 </div>
-                
             </nav>
             <div class="banner row">
                 <div class="header-left col span-1-of-2 clearfix">
@@ -67,7 +66,7 @@
                         
                     </div>
                     <div class="button-whitepaper-container row">
-                         <a class="button banner-button" href="#">VISIT WHITE PAPER</a>
+                         <a class="button banner-button" href="files/pbwhitepaper.pdf" target="_blank">VIEW WHITEPAPER</a>
                     </div>
                      
                 </div>
@@ -138,34 +137,34 @@
                 <div class="header-presale header-right col span-1-of-2">
                     <div class="row sale-box">
                         <div class="pre-sale-bonus">
-                            <div class="pre-sale-bonus-text">&nbsp;&nbsp; +10% Pre-Sale-Bonus</div>
+                            <div class="pre-sale-bonus-text">&nbsp;&nbsp; +25% Pre-Sale-Bonus</div>
                         </div>
                         
                         <p class="sale-text">Sale starts in:</p>
                         <div class="sale-time col span-1-of-4">
-                            <p>02</p>
+                            <p id="BTcamp_countdown_days">02</p>
                             <p>days</p>
                         </div>
                         <div class="sale-time col span-1-of-4">
-                            <p>18</p>
+                            <p id="BTcamp_countdown_hours">18</p>
                             <p>hours</p>
                         </div>
                         <div class="sale-time col span-1-of-4">
-                            <p>03</p>
+                            <p id="BTcamp_countdown_minutes">03</p>
                             <p>minutes</p>
                         </div>
                          <div class="sale-time col span-1-of-4">
-                            <p>45</p>
+                            <p id="BTcamp_countdown_seconds">45</p>
                             <p>seconds</p>
                         </div>
                         <div class="row sale-bar">
                             <div class="row">
                                 <div class="sale-bar-text-top">
                                     <div class="sale-bar-text-top-left">
-                                        <p>$ 3M</p>
+                                        <p>$3M</p>
                                     </div>
                                    <div class="sale-bar-text-top-right">
-                                        <p>$ 3M</p>
+                                        <p>$30M</p>
                                     </div>
                                 </div>
                                <!--  <div class="row sale-fund-raised">
@@ -190,29 +189,43 @@
                         </div>
                     </div>
                     <div class="pre-sale-button-buy-token-container-mobile row">
-                        <a class="button banner-button" href="#">get Pre-sale Tokens!</a>
+                        <a class="button banner-button" href="mailto:presale@PlayBunk.com">Get Pre-sale Tokens</a>
                     </div>
                 </div>
                 
             </div>
+            <div class="ribbon-pre-sale-bonus-container row">
+                    <div class="ribbon-pre-sale-bonus-contact">
+                        <!--<p>25% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">get bonus at presale@playbunk.com</span></p>-->
+                        <p><span style="color: #d94861;">contact us at</span> <a href="mailto:presale@PlayBunk.com" style="color: red">presale@playbunk.com</a></p>
+                    </div>
+                    <div class="ribbon-pre-sale-bonus">
+                        <!--<p>25% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">get bonus at presale@playbunk.com</span></p>-->
+                        <p>25%</p>
+                    </div>
+            </div>
             <div class="pre-sale-button-container row">
-                 <div class="pre-sale-button-container-whitepaper col span-1-of-2">
-                         <a class="button banner-button" href="#">VISIT WHITE PAPER</a>
+               
+                <div class="pre-sale-button-container-whitepaper col span-1-of-2">
+                         <a class="button banner-button" href="files/pbwhitepaper.pdf" target="_blank">VIEW WHITEPAPER</a>
                 </div>
                 <div class="pre-sale-button-buy-token-container col span-1-of-2">
-                    <a class="button banner-button" href="#">get Pre-sale Tokens</a>
+                    <a class="button banner-button" href="mailto:presale@PlayBunk.com">Get Pre-sale Tokens</a>
                 </div>
             </div>
         </header>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-top">
             </div>
             <div class="about-container">
                 <h3>About</h3>
                 <div class="about-content">
-                   <p><span class="about-start">PlayBunk</span> is a decentralized game distribution platform that empowers video game communities and promotes agame developers an publishers. We are bringing together PC games and blockchain games in one platform.<br><br>
-                       With PlayBunk, gamers can enjoy a wide access to the content they want to play without having to worry about intermediary costs. We are focused on making games accessible to the community. We are also dedicated to equipping the next generation of developers and players with the tools they require to collaborate with fellow game creators and publish their games. We will also be one of the first platforms to accommodate the growing worldwide interest in blockchain game technology. <br><br>
-                       Watch us. We'll redifine your gamespace.
+                   <p><span class="about-start">PlayBunk</span> is a decentralized digital game distribution platform that aims to empower video game communities and promote game developers and publishers. We are bringing together PC games and blockchain games in one platform.
+                    <br><br>
+                    With PlayBunk, gamers can enjoy a wide access to the content they want to play without having to worry about intermediary costs. We are focused on making games accessible to the community. We are dedicated to equipping the next generation of developers and players with the channels they require to collaborate with fellow game creators and publish their games. We will also be one of the first platforms to accommodate the growing worldwide interest in blockchain game technology.
+                    <br><br>
+                    Imagine fun. Experience creativity.
+
                     </p>
                 </div>
             </div>
@@ -220,7 +233,7 @@
              
             </div>
         </section>
-        <section class="features">
+        <section class="features" id="features">
           <!--  <div class="features-top">  
             </div>-->
             <div class="features-container">
@@ -293,7 +306,7 @@
                 </div>
                 <!--Mobile ENd------------------------------------------------->
                 <div class="features-bot-paragraph">
-                      <p>For <span class="features-gamers">GAMERS</span>, the will be able to access quality games, perform peer-to-peer transactions fairly in our user marketplace, accrue benefits from custom content creation, and participate in competetive tournaments with lower barriers of entry</p>
+                      <p>For <span class="features-gamers">gamers</span>: they will be able to access quality games, perform peer-to-peer transactions fairly in our user marketplace, accrue benefits from custom content creation, and participate in competitive tournaments with lower barriers of entry.</p>
                 </div>
                <div class="features-bot"></div>
                 <div class="features-content-bot row">
@@ -330,12 +343,12 @@
                 <!--Mobile end------------------------------------------------>
                 <div class="features-bot-bot-bg">
                      <div class="features-bot-bot-paragraph">
-                          <p>For <span class="features-gamers">DEVELOPERS AND PUBLISHERS</span>, the freedom with our decentralized freelancing platform Creator's lounge. They will also enjoy 96% profit on every game sale, a better discovery algorithm and targeted ads system for their titles, and an accomodating space for games created on the blockchain</p>
+                          <p>For <span class="features-gamers">developer</span> and <span class="features-gamers">publishers</span>: they will be able to embrace their creative freedom with our decentralized freelancing platform Creator’s Lounge. They will also enjoy 96% profit on every game sale, a better discovery algorithm and targeted ads system for their titles, and a fully accommodating space for games developed on the blockchain.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="token-sale-details">
+        <section class="token-sale-details" id="tsd">
             <div class="token-sale-details-top-div">
             </div>
             <div class="token-sale-details-top">
@@ -349,35 +362,35 @@
                     </tr>
                     <tr>
                         <td>Name</td>
-                        <td>Playbunk</td>
-                    </tr>
-                    <tr>
-                        <td>Symbol</td>
                         <td>Bunk</td>
                     </tr>
                     <tr>
+                        <td>Symbol</td>
+                        <td>BUNK</td>
+                    </tr>
+                    <tr>
                         <td>Total Token Supply</td>
-                        <td>0</td>
+                        <td>888,000,000</td>
                     </tr>
                     <tr>
                         <td>Token Pre-Sale</td>
-                        <td>+100% bonus tokens</td>
+                        <td>+25% bonus tokens</td>
                     </tr>
                     <tr>
                         <td>Token Sale</td>
-                        <td>+5% bonus tokens from start to end</td>
+                        <td>+15% bonus tokens from April 16 to May 15</td>
                     </tr>
                     <tr>
                         <td>Token Sale Price</td>
-                        <td>(BTC/USD Equivalent)</td>
+                        <td>1 BUNK = 0.00048 ETH</td>
                     </tr>
                     <tr>
                         <td>Minimum Contribution</td>
-                        <td></td>
+                        <td>0.1 ETH</td>
                     </tr>
                     <tr>
                         <td>Token Standard</td>
-                        <td>ERC -20</td>
+                        <td>ERC-20</td>
                     </tr>
                     <tr>
                         <td>Soft Cap</td>
@@ -389,7 +402,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="token-sale-details-info">
+     <!--       <div class="token-sale-details-info">
                 <p>
                     PlayBunk will never issue additional PlayBunk Tokens post-ICO.
                     <br><br>
@@ -403,25 +416,26 @@
                     <br><br>
                     If the Soft Cap of our PlayBunk Initial Coin Offering is met at Closing but the maximum number of tokens have not been purchased, PlayBunk will (lock) all remaining tokens.
                 </p>
+            </div>-->
+            <div style="padding-bottom: 20px; height: 50px;">
+           
             </div>
         </section>
         <section class="pre-sale-and-bonus">
             <div class="pre-sale-and-bonus-title row">
-                <h3>Pre-Sale & Bonus</h3>
+                <h3>Pre-Sale Bonus & Bonus for Large Purchasers</h3>
             </div>
             <div class="pre-sale-and-bonus-content row">
                 <p>
-                    A pre-sale will occur from (start date) to (end date) for community members to pre-purchase Play-Bunk Tokens. During which, PlayBunk will accept fiat currency, ETH, and BTC. To participate, please contact us at presale@PlayBunk.com.
+                    A pre-sale will occur from March 26 to April 15 for community members to pre-purchase BUNK Tokens. During which, PlayBunk will accept fiat currency, ETH, and BTC. To participate, please contact us at <a href="mailto:presale@PlayBunk.com" style="color:deepskyblue;">presale@PlayBunk.com</a>.
                     <br><br>
-                    As an incentive to our early supporters, a <strong>10%</strong> PlayBunk Token bonus will be given to pre-sale participants.
-                    <br>
-                    Purchasers who commit to purchase a large amount of BUNK Tokens during the Sale Period, 
+                    As an incentive to our early supporters, a 25% BUNK Token bonus will be given to pre-sale participants.
                     <br><br>
-                    will be eligible for the optional extra bonus(via "Private Sale"). All such bonuses will be discessued individually with each potential buyer.
+                    Purchasers who commit to purchase a large amount of BUNK tokens during the pre-sale and the public sale period will be eligible for an optional extra bonus (via "private sale”). All such bonuses will be discussed individually with each potential buyer.
                 </p>
             </div>
         </section>
-        <section class="token">
+        <section class="token" id="td">
             <div class="token-top">  
             </div>
             <div class="token-container row">
@@ -449,7 +463,7 @@
             </div>
            
         </section>
-        <section class="roadmap">
+        <section class="roadmap" id="roadmap">
            <div class="roadmap-top"></div>
             <div class="roadmap-content row">
                 <div class="row">
@@ -459,11 +473,11 @@
                     <div class="roadmap-left col span-1-of-2">
                         <div><img src="resources/img/roadmap%20circle.png"></div>
                         <div><img src="resources/img/roadmap%20linetrace.png"></div>
-                        
+                        <div><img src="resources/img/roadmap%20linetrace.png"></div>
                     </div>
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>March 26-April 15</p></div>
-                        <div><p>Token Pre-Sale</p></div>
+                        <div><p>- BUNK Token Pre-Sale</p></div>
                     </div>
                 </div>
                 <div class="row">
@@ -481,7 +495,7 @@
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>APR 16-May 30</p></div>
                         <div>
-                            <p>Token Sale</p>
+                            <p>- BUNK Token Sale</p>
                         </div>
                     </div>
                 </div>
@@ -509,10 +523,10 @@
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>Q3 2018</p></div>
                         <div>
-                            <p>-Start of development for PlayBunk Platform(Web/Download Client)</p>
-                            <p>-Start of development for 1st blockchain game</p>
-                            <p>-PlayBunk Tokens available in CEs</p>
-                            <p>-Engagement with 3rd party developers and publishers for strategic partnerships</p>
+                            <p>- Start of development for PlayBunk Platform(Web/Download Client)</p>
+                            <p>- Start of development for 1st Blockchain game</p>
+                            <p>- BUNK Tokens available in CEs</p>
+                            <p>- Engagement with 3rd party developers and publishers for strategic partnerships</p>
                         </div>
                     </div>
                 </div>
@@ -531,7 +545,7 @@
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>Q4 2018</p></div>
                         <div>
-                            <p>1st blockchain game Public Beta phase</p>
+                            <p>- 1st Blockchain game Public Beta phase</p>
                           
                         </div>
                     </div>
@@ -551,7 +565,7 @@
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>Q1 2019</p></div>
                         <div>
-                            <p>1st blockchain game</p>
+                            <p>- 1st Blockchain game</p>
                         </div>
                     </div>
                 </div>
@@ -576,9 +590,9 @@
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>Q2 2019</p></div>
                         <div>
-                            <p>-PlayBunk Web Platform Alpha phase</p>
-                            <p>-Start of development for 2nd blockchain game</p>
-                            <p>-Start of development for Creator's Lounge</p>
+                            <p>- PlayBunk Web Platform Alpha phase</p>
+                            <p>- Start of development for 2nd Blockchain game</p>
+                            <p>- Start of development for Creator's Lounge</p>
                         </div>
                     </div>
                 </div>
@@ -597,7 +611,7 @@
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>Q4 2019</p></div>
                         <div>
-                            <p>2nd blockchain game Public Beta phase</p>
+                            <p>- 2nd Blockchain game Public Beta phase</p>
                         </div>
                     </div>
                 </div>
@@ -619,8 +633,8 @@
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>Q1 2020</p></div>
                         <div>
-                            <p>-2nd blockchain game Official Launch</p>
-                            <p>-PlayBunk Download Client Platform Alpha phase</p>
+                            <p>- 2nd Blockchain game Official Launch</p>
+                            <p>- PlayBunk Download Client Platform Alpha phase</p>
                         </div>
                     </div>
                 </div>
@@ -637,15 +651,17 @@
                               <div>
                                 <img src="resources/img/roadmap%20linetrace.png">
                             </div> 
-                            
+                             <div>
+                                <img src="resources/img/roadmap%20linetrace.png">
+                            </div> 
                         </div>
                     </div>
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>Q2 2020</p></div>
                         <div>
-                            <p>-PlayBunk Web Platform Official Launch</p>
-                            <p>-PlayBunk Download Client Public Beta phase</p>
-                            <p>-3rd blockchain game Public Beta Phase</p>
+                            <p>- PlayBunk Web Platform Official Launch</p>
+                            <p>- PlayBunk Download Client Public Beta phase</p>
+                            <p>- 3rd Blockchain game Public Beta Phase</p>
                         </div>
                     </div>
                 </div>
@@ -653,28 +669,23 @@
                     <div class="roadmap-left col span-1-of-2">
                         <div><img src="resources/img/roadmap%20circle.png"></div>
                         <div>
-                            <div>
-                                <img src="resources/img/roadmap%20linetrace.png">
-                            </div>
-                            <div>
-                                <img src="resources/img/roadmap%20linetrace.png">
-                            </div>  
+                          
                         </div>
                     </div>
                     <div class="roadmap-right col span-1-of-2">
                         <div><p>Q4 2020</p></div>
                         <div>
-                            <p>-PlayBunk Download Client Official Launch</p>
-                            <p>-3rd blockchain game launch</p>
+                            <p>- PlayBunk Download Client Official Launch</p>
+                            <p>- 3rd Blockchain game launch</p>
                         </div>
                     </div>
                 </div>
             </div><!--end-->
             <div class="roadmap-bot"></div>
         </section>
-        <section class="allocation">
+        <section class="allocation" id="fa">
             <div class="allocation-container">
-                <div class="allocation-top row">
+                <div class="row">
                     <h3>Funds Allocation</h3>
                 </div>
                 <div class="allocation-content row">
@@ -694,7 +705,7 @@
              
             </div>
         </section>
-        <section class="team">
+        <section class="team" id="team">
             <div class="team-top"></div>
            <!-- <h3 class="team-title">team</h3>-->
             <div class="team-container row">
@@ -775,7 +786,7 @@
                 </div>
             </div>
         </section>
-        <section class="bounty">
+        <section class="bounty" id="bounty">
             <div class="bounty-content">
                 <h3>Bounty Program</h3>
                 <p>
@@ -787,70 +798,70 @@
                 </p>
                  
                 <div class="button-bounty-container row">
-                         <a class="button banner-button" href="#">Click here</a>
+                         <a class="button banner-button" href="/bounty/">Click here</a>
                 </div>
             </div>
         </section>
-        <section class="faq">
-            <h3>Faqs</h3>
+        <section class="faq" id="faq">
+            <h3>FAQs</h3>
             <div class="faq-content">
                 <div class="faq-content-row">
                     <div>
-                        <p><strong>Q:What is  PlayBunk?</strong></p>
-                        <p>A:PlayBunk is a decentralized digital platform for distributing and promoting PC games and blockchain games. It provides a highly competent avenue for gamers to acquire a wider variety of games, and for developers to receive higher margins as they showcase their products in our game store.</p>
+                        <p><strong>Q: What is  PlayBunk?</strong></p>
+                        <p>A: PlayBunk is a decentralized digital platform for distributing and promoting PC games and blockchain games. It provides a highly competent avenue for gamers to acquire a wider variety of games, and for developers to receive higher margins as they showcase their products in our game store.</p>
                     </div>
                     <div>
-                        <p><strong>Q:How do I create an account?</strong></p>
-                        <p>A:No need to create an account.  All you need is to install MetaMask, create your digital wallet and you're good to go.
+                        <p><strong>Q: How do I create an account?</strong></p>
+                        <p>A: No need to create an account.  All you need is to install MetaMask, create your digital wallet and you're good to go.
                             <br><br>
                         Additional info: Keep your digital wallet created on MetaMask safe and secured.  Make sure you don’t forget your password or the mnemonic words provided to you.
                         </p>
                     </div>
                     <div>
-                        <p><strong>Q:How do I use BUNK Tokens in relation to your project?</strong></p>
-                        <p>A:Our PlayBunk ecosystem fully utilizes BUNK tokens in a variety of ways. Using BUNK tokens, users can buy PC games, utilize Creator's Lounge by collaborating and creating games, buy in-game items in our user-driven marketplace, buy and trade items in all of our blockchain games. Our tournaments will also reward players with BUNK tokens.</p>
+                        <p><strong>Q: How do I use BUNK Tokens in relation to your project?</strong></p>
+                        <p>A: Our PlayBunk ecosystem fully utilizes BUNK tokens in a variety of ways. Using BUNK tokens, users can buy PC games, utilize Creator's Lounge by collaborating and creating games, buy in-game items in our user-driven marketplace, buy and trade items in all of our blockchain games. Our tournaments will also reward players with BUNK tokens.</p>
                     </div>
                      <div>
-                        <p><strong>Q:How to acquire BUNK Tokens?</strong></p>
-                        <p>A:You can acquire BUNK Tokens by clicking the 'Buy Tokens' button and through our buy page.  We accept Ethereum (ETH) and Bitcoin (BTC) payments.
+                        <p><strong>Q: How to acquire BUNK Tokens?</strong></p>
+                        <p>A: You can acquire BUNK Tokens by clicking the 'Buy Tokens' button and through our buy page.  We accept Ethereum (ETH) and Bitcoin (BTC) payments.
                         <br><br>
                         The minimum contribution to acquire BUNK tokens is 0.10 ETH.
                         <br><br>
                         We are also in talks with several Cryptocurrency Exchanges and BUNK Tokens will soon be available in these sites.</p>
                     </div>
                      <div>
-                        <p><strong>Q:Are there any restricted countries in buying BUNK Tokens?</strong></p>
-                        <p>A:The following countires are restricted in participating in our token sale:
+                        <p><strong>Q: Are there any restricted countries in buying BUNK Tokens?</strong></p>
+                        <p>A: The following countries are restricted in participating in our token sale:
                              <br><br>
                         United States of America, People's Republic of China (except for Hong Kong, Macau and Taiwan), South Korea, Cuba, Iran, North Korea, Syria, Crimea Region, Philippines.</p>
                     </div>
                      <div>
-                        <p><strong>Q:Soft cap and hard cap of BUNK Tokens</strong></p>
-                        <p>A:The soft cap is $3,000,000 while the hard cap is $30,000,000</p>
+                        <p><strong>Q: Soft cap and hard cap of BUNK Tokens</strong></p>
+                        <p>A: The soft cap is $3,000,000 while the hard cap is $30,000,000.</p>
                     </div>
                      <div>
-                        <p><strong>Q:How will the funds be used?</strong></p>
-                        <p>A:The funds will be used for development, marketing, business development, and strategic partnerships with 3rd party developers and publishers.</p>
+                        <p><strong>Q: How will the funds be used?</strong></p>
+                        <p>A: The funds will be used for development, marketing, business development, and strategic partnerships with 3rd party developers and publishers.</p>
                     </div>
                      <div>
-                        <p><strong>Q:When will you be on exchanges? Which exchanges will I be able to find you guys in?</strong></p>
-                        <p>A:We're currently in discussion with several exchanges. We are targeting to be available in major exchanges within 3 months after our token sale.</p>
+                        <p><strong>Q: When will you be on exchanges? Which exchanges will I be able to find you guys in?</strong></p>
+                        <p>A: We're currently in discussion with several exchanges. We are targeting to be available in major exchanges within 3 months after our token sale.</p>
                     </div>
                     <div>
-                        <p><strong>Q:How can I convert my BUNK Tokens into other cryptocurrencies?</strong></p>
-                        <p>A:PlayBunk will be available in several major exchanges. With these exchange paltforms, users can easily convert Bunk tokens to traditional currencies or other digital currencies like Bitcoin(BTC), LiteCoin(LTC), etc.</p>
+                        <p><strong>Q: How can I convert my BUNK Tokens into other cryptocurrencies?</strong></p>
+                        <p>A: PlayBunk will be available in several major exchanges. With these exchange platforms, users can easily convert Bunk tokens to traditional currencies or other digital currencies like Bitcoin(BTC), LiteCoin(LTC), etc.</p>
                     </div>
                     <div>
-                        <p><strong>Q:Is there a referral system? What are the ways of earning additional BUNK Tokens?</strong></p>
-                        <p>A:Yes, we have a Bounty Program for participants who are eager to gain additional BUNK tokens. For more information, kindly check <insert link>.</p>
+                        <p><strong>Q: Is there a referral system? What are the ways of earning additional BUNK Tokens?</strong></p>
+                        <p>A: Yes, we have a Bounty Program for participants who are eager to gain additional BUNK tokens. For more information, kindly check <a href="/bounty/">Bounty Program</a>.</p>
                     </div>
                     <div>
-                        <p><strong>Q:Can you explain your transaction fee in Creator's Lounge?</strong></p>
-                        <p>A:Unlike other freelancing platforms, there are no transaction or commission fees from our end in using Creator's Lounge.</p>
+                        <p><strong>Q: Can you explain your transaction fee in Creator's Lounge?</strong></p>
+                        <p>A: Unlike other freelancing platforms, there are no transaction or commission fees from our end in using Creator's Lounge.</p>
                     </div>
                      <div>
-                        <p><strong>Q:Is your token a security?</strong></p>
-                        <p>A:Definitely not. BUNK token is a 100% utility token used for transactions within PlayBunk platform ecosystem. Token holders receive no shares in the company, neither they are eligible to receive any kind of dividends or interest. There is no buyback program and we do not influence the price of the token in any way or form.</p>
+                        <p><strong>Q: Is your token a security?</strong></p>
+                        <p>A: Definitely not. BUNK token is a 100% utility token used for transactions within PlayBunk platform ecosystem. Token holders receive no shares in the company, neither they are eligible to receive any kind of dividends or interest. There is no buyback program and we do not influence the price of the token in any way or form.</p>
                     </div>
                 </div>
                
@@ -861,9 +872,9 @@
             <!--<img src="resources/img/footer%20top%20division.png">-->
             <div class="footer-top"></div>
             <div class="social-media">
-                <a href="#">fb</a>
-                <a href="#">twitter</a>
-                <a href="#">instagram</a>
+                <a href="https://www.facebook.com/Playbunk-330586917437926/"><img src="resources/img/facebook.png" alt="fb"></a>
+                <a href="https://twitter.com/playbunkportal"><img src="resources/img/twitter.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/playbunkofficial/"><img src="resources/img/instagram.png" alt="instag"></a>
             </div>
             <div class="footer-bot"></div>
            <!-- <img src="resources/img/footer%20bottom%20division.png">-->
@@ -872,5 +883,6 @@
     </div>
     <script language="javaScript" type="text/javascript" src="vendors/js/jquery_1_12_4.min.js"></script>
     <script language="javaScript" type="text/javascript" src="resources/js/script.js"></script>
+    <script language="javaScript" type="text/javascript" src="resources/js/timer.js"></script>
 </body>
 </html>

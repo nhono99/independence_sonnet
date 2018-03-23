@@ -8,6 +8,11 @@
         padding: 0;
         
     }*/
+    nav{
+        background-image: url("/resources/img/nav%20mobile.png")
+        background-size: contain;
+        height: 83px;
+    }
     .nav-icon-container{
         text-align: center;
         vertical-align: middle;
@@ -26,6 +31,7 @@
 		background-color: #795f8f;
         
     }
+    
     .main-nav{
         display: block;
         float: right;
@@ -41,6 +47,7 @@
 		text-align: center;
 		
 		margin: 2px;
+        margin-top: 0px;
 		font-size: 60%;
 	}
 	.main-nav li a{
@@ -88,26 +95,42 @@
     /*HEADER END*/
     /*ABOUT*/
     .about-content{
-        font-size: 2.7rem;
-        margin: 30px 10%;
+        font-size: 2rem;
     }
     /*ABOUT END*/
    /*FEATURES*/
     .features-bot-paragraph{
-        margin: 15px 150px;
-        font-size: 2.3rem;
+        font-size: 2rem;
       /*  height: 200px;*/
     }
     .features-bot-bot-paragraph{
-        margin: 0px 200px;
         padding-top: 25px;
-        font-size: 2.6rem;
+        font-size: 1.9rem;
     }
    /*FEATURES END*/
+    .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(83%);
+        top: -85px;
+    }
+    .ribbon-pre-sale-bonus p{
+
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(53.5%);
+        top: -25px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 1.8rem;
+    }
 }
 @media only screen and (max-width:1024px){
    .nav-icon-container{
-      background-color: aqua;
+     
     }
      /*HEADER*/
     .header-left{
@@ -160,10 +183,7 @@
     }
     /*HEADER END*/
      /*ABOUT*/
-    .about-content{
-        font-size: 2.6rem;
-        margin: 30px 1.5%;
-    }
+    
     /*ABOUT END*/
    /*FEATURES*/
     .features-container{
@@ -322,19 +342,48 @@
     .pre-sale-button-buy-token-container-mobile{
         display: block;
         margin-left: 20px;
+        margin-top: 100px;
     }
     .button-whitepaper-container{
         display: block;
     }
     header{
-        height: 1700px;
+        height: 1800px;
     }
-   
+    .about-content{
+        font-size: 2rem;
+        line-height: 2.1rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(73%);
+        top: -185px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(24.5%);
+        top: -175px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 2.2rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.9rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.9rem;
+    }
 }
 @media only screen and (max-width:1024px) and (min-height:1366px){
     /*HEADER*/
    .nav-icon-container{
-      background-color: red;
+     
     }
     .header-left{
         display: block;
@@ -382,7 +431,8 @@
     /*HEADER END*/
      /*ABOUT*/
     .about-content{
-        font-size: 2.6rem;
+        font-size: 2rem;
+        line-height: 2.1rem;
         margin: 30px 1.5%;
     }
     /*ABOUT END*/
@@ -538,20 +588,38 @@
     .pre-sale-button-buy-token-container-mobile{
         display: block;
         margin-left: 20px;
+        margin-top: 100px;
     }
     .button-whitepaper-container{
         display: block;
     }
     header{
-        height: 1700px;
+        height: 1800px;
+    }
+      .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(73%);
+        top: -185px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(24.5%);
+        top: -175px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 2.2rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.9rem;
     }
 }
 
 @media only screen and (max-width: 812px){
-    .about-content{
-        font-size: 2.3rem;
-        margin: 30px 1.5%;
-    }
      .features-bot-paragraph{
         margin: 15px 1.5%;
         font-size: 2rem;
@@ -587,7 +655,6 @@
       margin-right: 1.5%;
     }
     .bounty{
-        background-color: rebeccapurple;
         margin-bottom: 50px;
     }
      .bounty-content p{
@@ -602,10 +669,81 @@
     .pre-sale-and-bonus-content p{
         font-size: 1.7rem;
     }
+    .ribbon-pre-sale-bonus{
+        left: calc(22%);
+    }
+    
+     .about-content{
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(73%);
+        top: -185px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(14.5%);
+        top: -175px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 2.2rem;
+    }
+     .features-bot-paragraph{
+        font-size: 2rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.5rem;
+    }
 }
 @media only screen and (max-width:768px){
     .features-content-mobile .features-box p{
         font-size: 2.7rem;
+    }
+    .roadmap-right div:nth-child(2){
+        width: 400px;
+    }
+     .about-content{
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(73%);
+        top: -215px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(15.5%);
+        top: -175px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 2rem;
+    }
+     .features-bot-paragraph{
+        font-size: 1.8rem;
+         line-height: 1.9rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.6rem;
+         line-height: 1.7rem;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.5rem;
+        line-height: 1.7rem;
     }
 }
 
@@ -621,11 +759,93 @@
     .pre-sale-button-buy-token-container-mobile a{
         padding-left: 40px;
     }
+    .ribbon-pre-sale-bonus{
+        left: calc(19%);
+    }
+    .roadmap-right div:nth-child(2){
+        width: 400px;
+    }
+    .about-content{
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(73%);
+        top: -215px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(17.5%);
+        top: -175px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 1.8rem;
+    }
+     .features-bot-paragraph{
+        font-size: 1.8rem;
+         line-height: 1.9rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.6rem;
+         line-height: 1.7rem;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
 }
 
 @media only screen and (max-width:732px){
     .pre-sale-button-buy-token-container-mobile a{
        font-size: 2.9rem;
+    }
+     .ribbon-pre-sale-bonus{
+        left: calc(16%);
+    }
+    .roadmap-right div:nth-child(2){
+        width: 400px;
+    }
+    .about-content{
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(73%);
+        top: -215px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(17.5%);
+        top: -175px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 1.8rem;
+    }
+     .features-bot-paragraph{
+        font-size: 1.8rem;
+         line-height: 1.9rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.5rem;
+         line-height: 1.6rem;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.4rem;
+        line-height: 1.5rem;
     }
 }
 
@@ -649,6 +869,42 @@
     }
     .pre-sale-and-bonus-content p{
         font-size: 1.5rem;
+    }
+    
+    .about-content{
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(73%);
+        top: -215px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(18.5%);
+        top: -165px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 1.6rem;
+    }
+     .features-bot-paragraph{
+        font-size: 1.5rem;
+         line-height: 1.6rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.5rem;
+         line-height: 1.6rem;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.4rem;
+        line-height: 1.5rem;
     }
 }
 @media only screen and (max-width:640px){
@@ -681,10 +937,45 @@
         padding: 20px 0 20px 84px;
         background-size: 45px;
     }
+    .about-content{
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 55px 35px 55px 55px;
+        background-size: 150px;
+        left: calc(73%);
+        top: -215px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 3rem;
+        font-family: londrina_solidregular;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(18.5%);
+        top: -165px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 1.6rem;
+    }
+     .features-bot-paragraph{
+        font-size: 1.5rem;
+         line-height: 1.6rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.5rem;
+         line-height: 1.6rem;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 414px){
-     .button{
+    .button{
         padding: 0;
         margin: 0;
     }
@@ -698,6 +989,7 @@
     }
     .banner{
         margin: 0 1.5% 0 1.5%;
+        width: calc(100% - 3%);
     }
     .hero-text p{
         font-size: 2rem;
@@ -775,9 +1067,33 @@
        width: 105%;
     }
      header{
-        height: 1200px;
+        height: 1400px;
     }
     /*HEADER END*/
+    /*PRESALE HEADER*/
+    .header-presale{
+        padding-top: 0px;
+    }
+    .sale-box{
+        width: 90%;
+        margin: 0 5%;
+      
+    }
+    .sale-bar{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .pre-sale-button-buy-token-container-mobile a{
+        font-size: 2rem;
+        padding: 20px;
+    }
+    .pre-sale-button-buy-token-container-mobile{
+        margin-top: 50px;
+    }
+    header{
+      /*  display: none;*/
+    }
+    /*PRESALE HEADER END*/
    .about-content{
         font-size: 1.4rem;
         margin: 30px 1.5%;
@@ -930,21 +1246,20 @@
         font-size: 1.5rem;
     }
     .roadmap-right div:nth-child(1){
-        width: 80%;
+        width: 100%;
         border-bottom: 2px solid #ffcd6a;
         margin-bottom: 10px;
-
     }
     /*--*/
     .roadmap-right div:nth-child(2){
-        width: 200px;
+        width: 250px;
     }
     .roadmap-right div:nth-child(1) p{
         font-family: londrina_solidregular;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .roadmap-right div:nth-child(2) p{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         line-height: 1.6rem;
     }
     /*----*/
@@ -955,12 +1270,81 @@
         font-size: 1.5rem;
     }
     body .roadmap h3 {
-        background-color: black;
         width: 80%;
         margin: 30px;
     }
-    .roadmap{
-       /* display: none;*/
+    .pre-sale-and-bonus-content{
+        margin: 0 1.5%;
+    }
+   .pre-sale-and-bonus-content p{
+        font-size: 1.3rem;
+    }
+    .bounty{
+         height: 600px;
+         padding-bottom: 0;
+         margin-bottom: 0;
+    }
+    .bounty-content p{
+        font-size: 1.5rem;
+         line-height: 1.6rem;
+    }
+    .token-sale-details-table-container{
+        font-size: 1rem;
+    }
+     
+    .roadmap-right div:nth-child(2){
+        width: 300px;
+    }
+    .about-content{
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 35px 15px 35px 35px;
+        background-size: 80px;
+        left: calc(77%);
+        top: -135px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 1.7rem;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(15.5%);
+        top: -115px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 1.2rem;
+    }
+     .features-bot-paragraph{
+        font-size: 1.4rem;
+         line-height: 1.5rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.2rem;
+         line-height: 1.3rem;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+    .token-sale-details h3{
+        font-size: 3rem;
+        padding-bottom: 10px;
+    }
+    .pre-sale-and-bonus-title h3{
+        font-size: 2rem;   
+        padding-bottom: 10px;
+    }
+    .token-header h3{
+         font-size: 3rem;   
+    }
+    .allocation-container h3{
+        font-size: 3rem;
+    }
+    .bounty h3{
+        font-size: 3rem;
     }
 }
 @media only screen and (max-width: 375px){
@@ -977,5 +1361,88 @@
     }
      .features-content-mobile .features-box p {
         font-size: 1.7rem;
+    }
+    .pre-sale-bonus-text{
+        left: -29px;
+        top: -40px;
+        width: 300px;
+        height: 70px;
+        padding: 10px 5px 0px 0px;
+        font-size: 1.5rem;
+    }
+    .sale-time p:first-of-type{
+        font-family: londrina_solidregular;
+        color: #e95151;
+        font-size: 3rem;
+    }
+    .sale-time p:last-of-type{
+        font-family: comfortaabold;
+        font-size: 0.8rem;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+    .bounty-content p{
+        font-size: 1.3rem;
+         line-height: 1.4rem;
+    }
+    /*--------------*/
+    .roadmap-right div:nth-child(2){
+        width: 240px;
+    }
+    .roadmap-right div:nth-child(2) p{
+        font-size: 1rem;
+    }
+    .about-content{
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+        margin: 30px 1.5%;
+    }
+    .ribbon-pre-sale-bonus{
+        padding: 35px 15px 35px 35px;
+        background-size: 80px;
+        left: calc(75%);
+        top: -135px;
+    }
+    .ribbon-pre-sale-bonus p{
+        font-size: 1.7rem;
+    }
+    .ribbon-pre-sale-bonus-contact{
+        position: absolute;
+        left: calc(11.5%);
+        top: -115px;
+    }
+    .ribbon-pre-sale-bonus-contact p{
+        font-size: 1.1rem;
+    }
+     .features-bot-paragraph{
+        font-size: 1.4rem;
+         line-height: 1.5rem;
+    }
+     .features-bot-bot-paragraph{
+        font-size: 1.1rem;
+         line-height: 1.2rem;
+    }
+    .pre-sale-and-bonus-content p{
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+    .token-sale-details h3{
+        font-size: 3rem;
+        padding-bottom: 10px;
+    }
+    .pre-sale-and-bonus-title h3{
+        font-size: 2rem;   
+        padding-bottom: 10px;
+    }
+    .token-header h3{
+         font-size: 3rem;   
+    }
+    .allocation-container h3{
+        font-size: 3rem;
+    }
+    .bounty h3{
+        font-size: 3rem;
     }
 }

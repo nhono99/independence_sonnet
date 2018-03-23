@@ -137,8 +137,10 @@ nav ul li{
 
 .main-nav-container{
     overflow-y: visible;
-    padding-top: 10px;
+    padding-top: 0px;
+    margin-top: 0;
     width: 100%;
+    /*background-color: aqua;*/
 }
 .nav-whitepaper-link{
     position: relative;
@@ -440,15 +442,16 @@ header{
     background-image: url("resources/img/about%20triangles.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1085px
+    height: 725px
 }
 
 .about-content{
     display: flex;
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 2.1rem;
     align-content: center;
     justify-content: center;
-    margin: 30px 10%;
+    margin: 50px 15%;
     text-align: center;
 }
 .about-start{
@@ -518,9 +521,10 @@ header{
 .features-bot-paragraph{
     display: block;
     text-align: center;
-    margin: 30px 150px;
-    font-size: 3rem;
-    height: 200px;
+    margin: 30px 15% 0 15%;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    height: 150px;
 }
 .features-gamers{
     font-family: 'londrina_solidregular';
@@ -569,7 +573,8 @@ header{
     text-align: center;
     margin: 0px 200px;
     padding-top: 50px;
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 2.1rem;
 }
 .features-bot-bot-bg{
     background-color:  #423a50;
@@ -578,7 +583,7 @@ header{
     background-size: cover;
     width: 100%;
     background-position: center top; 
-    height: 411px;
+    height: 231px;
    
 }
 /*FEAURES*/
@@ -755,7 +760,7 @@ header{
     margin-bottom: 10px;
 }
 .roadmap-right div:nth-child(2){
-    width: 400px;
+    width: 500px;
 }
 .roadmap-right div:nth-child(1) p{
     font-family: londrina_solidregular;
@@ -992,6 +997,7 @@ header{
     flex-direction: column;
     justify-content: flex-start;
     font-size: 1.2rem;
+    line-height: 1.4rem;
     flex-wrap: wrap;
     margin-left: 10%;
 }
@@ -1001,6 +1007,7 @@ header{
 .faq-content-row p:nth-child(1){
     color: #ff5e5e;
     margin-bottom: 10px;
+    
 }
 /*FAQ*/
 footer{
@@ -1011,7 +1018,8 @@ footer img{
     width: 100%;
 }
 footer a{
-    margin: 10px;
+    margin: 0px;
+    text-align: center;
 }
 .footer-top{
     background-image: url("resources/img/footer%20top%20division.png");
@@ -1024,6 +1032,9 @@ footer a{
     display: flex;
     justify-content: center;
      background-color: #543e53;
+}
+.social-media img{
+    width: 40%;
 }
 .footer-bot{
     background-image: url("resources/img/footer%20bottom%20division.png");
@@ -1087,11 +1098,13 @@ footer a{
 }
 .pre-sale-button-buy-token-container,
 .pre-sale-button-buy-token-container-mobile{
-    background-color: orangered;
+    background-color: deepskyblue;
+   
 }
 .pre-sale-button-buy-token-container a,
 .pre-sale-button-buy-token-container-mobile a{
     color: white;
+    border-color: deepskyblue;
 }
 .pre-sale-bonus{
     position: relative;
@@ -1166,9 +1179,43 @@ footer a{
 }
 .pre-sale-and-bonus-content p{
    font-size: 1.7rem;
-    line-height: 1.8rem;
+    line-height: 1.9rem;
   
 }
 .pre-sale-and-bonus-title{
     padding-top: 20px;
+}
+
+.ribbon-pre-sale-bonus{
+    text-align: center;
+    background-image: url("resources/img/bonus%20container.png");
+    padding: 55px 35px 55px 55px;
+	background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    position: absolute;
+    left: calc(85.5%);
+    top: -45px;
+}
+.ribbon-pre-sale-bonus p{
+    
+    font-size: 3rem;
+    font-family: londrina_solidregular;
+}
+.ribbon-pre-sale-bonus-container{
+    position: relative;
+    display: block;
+    width: 100%;
+  
+}
+.ribbon-pre-sale-bonus-contact{
+    position: absolute;
+    left: calc(55.5%);
+    top: -25px;
+}
+.ribbon-pre-sale-bonus-contact p{
+    color: red;
+    font-family: londrina_solidregular;
+     font-size: 2rem;
 }
