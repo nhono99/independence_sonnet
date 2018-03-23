@@ -65,10 +65,15 @@
     .sticky .main-nav{
         margin-top: 10px;
     }
-    
+    .header-left{
+        
+    }
+    .header-right{
+        
+    }
     /*HEADER*/
     .banner{
-        margin-left: 4%;
+
     }
     .hero-text p{
         font-size: 2.6rem;
@@ -296,6 +301,28 @@
         display: block;
     }
     /*TEAM end------------------------------------------------------------*/
+      .pre-sale-button-container{
+        display: none;
+    }
+    .banner{
+        flex-flow: column;
+    }
+    .button-token-container{
+        display: block;
+        height: 100px;
+        background-color: aqua;
+    }
+    .pre-sale-button-buy-token-container-mobile{
+        display: block;
+        margin-left: 20px;
+    }
+    .button-whitepaper-container{
+        display: block;
+    }
+    header{
+        height: 1700px;
+    }
+   
 }
 @media only screen and (max-width:1024px) and (min-height:1366px){
     /*HEADER*/
@@ -490,6 +517,27 @@
         display: block;
     }
     /*TEAM end------------------------------------------------------------*/
+     .pre-sale-button-container{
+        display: none;
+    }
+    .banner{
+        flex-flow: column;
+    }
+    .button-token-container{
+        display: block;
+        height: 100px;
+        background-color: aqua;
+    }
+    .pre-sale-button-buy-token-container-mobile{
+        display: block;
+        margin-left: 20px;
+    }
+    .button-whitepaper-container{
+        display: block;
+    }
+    header{
+        height: 1700px;
+    }
 }
 
 @media only screen and (max-width: 812px){
@@ -535,6 +583,15 @@
     .team-content{
         width: 100%;
     }
+    .pre-sale-button-buy-token-container-mobile a{
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width:732px){
+    .pre-sale-button-buy-token-container-mobile a{
+       font-size: 2.9rem;
+    }
 }
 
 @media only screen and (max-width:667px){
@@ -551,6 +608,9 @@
         margin: 0px 1.5%;
         padding-top: 25px;
         font-size: 2.2rem;
+    }
+    .pre-sale-button-buy-token-container-mobile a{
+        font-size: 2.7rem;
     }
 }
 @media only screen and (max-width:640px){

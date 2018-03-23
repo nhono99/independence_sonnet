@@ -122,7 +122,8 @@ nav ul li{
     display: inline-block;
     width: 100px;
     margin-top: 5px;
-    margin-left: 6.5%;*/
+    margin-left: 6.5%;
+    display: none;
   
 }
 .logo-link{
@@ -390,15 +391,19 @@ header{
     text-align: center;
     
 }
-.button-token-container{
+.button-whitepaper-container{
+    display: none;
+}
+.button-token-container,
+.button-whitepaper-container{
     margin-top: 50px;
-    display: block;
     display: none;
     text-align: center;
    
 }
 .button-token-container a,
-.button-token-container-2 a
+.button-token-container-2 a,
+.button-whitepaper-container a
 {
     margin: 0;
     display: block;
@@ -1031,10 +1036,12 @@ footer a{
     margin: 0;
     display: block;
 }
-.pre-sale-button-buy-token-container{
+.pre-sale-button-buy-token-container,
+.pre-sale-button-buy-token-container-mobile{
     background-color: orangered;
 }
-.pre-sale-button-buy-token-container a{
+.pre-sale-button-buy-token-container a,
+.pre-sale-button-buy-token-container-mobile a{
     color: white;
 }
 .pre-sale-bonus{
