@@ -11,9 +11,6 @@
         
     }
     /*HEADER*/
-    .banner{
-
-    }
     .hero-text p{
         font-size: 2.6rem;
     }
@@ -33,36 +30,11 @@
         font-size: 1.9rem;
     }
    /*FEATURES END*/
-    .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(83%);
-        top: -85px;
-    }
-    .ribbon-pre-sale-bonus p{
-
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(53.5%);
-        top: -25px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 1.8rem;
-    }
 }
 @media only screen and (max-width:1024px){
     nav{
        background-color: rgba(255, 255, 255, 0);
     }
-/*    nav ul li{
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        
-    }*/
     nav{
         background-image: url("/resources/img/nav%20mobile.png")
         background-size: contain;
@@ -157,16 +129,13 @@
     .header-available p:nth-child(2), .header-available p:nth-child(3){
         font-size: 2rem;
     }
-    .sale-box{
-        width: 100%;
-    }
     .sale-point p{
         width: 100px;
         height: 50px;
         font-size: 1.5rem;
     }
     .header-right{
-        margin-top: 40px;
+        /*margin-top: 40px;*/
         width: 95%;   
         text-align: center;
     }
@@ -327,10 +296,10 @@
         display: block;
     }
     /*TEAM end------------------------------------------------------------*/
-      .pre-sale-button-container{
-        display: none;
-    }
     .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-flow: column;
     }
     .button-token-container{
@@ -343,9 +312,6 @@
         margin-left: 20px;
         margin-top: 100px;
     }
-    .button-whitepaper-container{
-        display: block;
-    }
     header{
         height: 1800px;
     }
@@ -353,24 +319,6 @@
         font-size: 2rem;
         line-height: 2.1rem;
         margin: 30px 1.5%;
-    }
-    .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(73%);
-        top: -185px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(24.5%);
-        top: -175px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 2.2rem;
     }
      .features-bot-bot-paragraph{
         font-size: 1.9rem;
@@ -409,13 +357,9 @@
     .header-available p:nth-child(2), .header-available p:nth-child(3){
         font-size: 2rem;
     }
-    .sale-box{
-        width: 100%;
-    }
     .header-right{
         margin-top: 40px;
         width: 95%;   
-        text-align: center;
     }
     header{
         height: 1600px;
@@ -573,9 +517,6 @@
         display: block;
     }
     /*TEAM end------------------------------------------------------------*/
-     .pre-sale-button-container{
-        display: none;
-    }
     .banner{
         flex-flow: column;
     }
@@ -589,30 +530,10 @@
         margin-left: 20px;
         margin-top: 100px;
     }
-    .button-whitepaper-container{
-        display: block;
-    }
     header{
         height: 1800px;
     }
-      .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(73%);
-        top: -185px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(24.5%);
-        top: -175px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 2.2rem;
-    }
+
      .features-bot-bot-paragraph{
         font-size: 1.9rem;
     }
@@ -668,32 +589,10 @@
     .pre-sale-and-bonus-content p{
         font-size: 1.7rem;
     }
-    .ribbon-pre-sale-bonus{
-        left: calc(22%);
-    }
-    
-     .about-content{
+    .about-content{
         font-size: 1.5rem;
         line-height: 2.1rem;
         margin: 30px 1.5%;
-    }
-    .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(73%);
-        top: -185px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(14.5%);
-        top: -175px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 2.2rem;
     }
      .features-bot-paragraph{
         font-size: 2rem;
@@ -713,24 +612,6 @@
         font-size: 1.5rem;
         line-height: 2.1rem;
         margin: 30px 1.5%;
-    }
-    .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(73%);
-        top: -215px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(15.5%);
-        top: -175px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 2rem;
     }
      .features-bot-paragraph{
         font-size: 1.8rem;
@@ -758,9 +639,7 @@
     .pre-sale-button-buy-token-container-mobile a{
         padding-left: 40px;
     }
-    .ribbon-pre-sale-bonus{
-        left: calc(19%);
-    }
+
     .roadmap-right div:nth-child(2){
         width: 400px;
     }
@@ -768,24 +647,6 @@
         font-size: 1.5rem;
         line-height: 2.1rem;
         margin: 30px 1.5%;
-    }
-    .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(73%);
-        top: -215px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(17.5%);
-        top: -175px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 1.8rem;
     }
      .features-bot-paragraph{
         font-size: 1.8rem;
@@ -805,9 +666,6 @@
     .pre-sale-button-buy-token-container-mobile a{
        font-size: 2.9rem;
     }
-     .ribbon-pre-sale-bonus{
-        left: calc(16%);
-    }
     .roadmap-right div:nth-child(2){
         width: 400px;
     }
@@ -815,24 +673,6 @@
         font-size: 1.5rem;
         line-height: 2.1rem;
         margin: 30px 1.5%;
-    }
-    .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(73%);
-        top: -215px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(17.5%);
-        top: -175px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 1.8rem;
     }
      .features-bot-paragraph{
         font-size: 1.8rem;
@@ -869,29 +709,10 @@
     .pre-sale-and-bonus-content p{
         font-size: 1.5rem;
     }
-    
     .about-content{
         font-size: 1.5rem;
         line-height: 1.7rem;
         margin: 30px 1.5%;
-    }
-    .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(73%);
-        top: -215px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(18.5%);
-        top: -165px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 1.6rem;
     }
      .features-bot-paragraph{
         font-size: 1.5rem;
@@ -941,24 +762,6 @@
         line-height: 1.7rem;
         margin: 30px 1.5%;
     }
-    .ribbon-pre-sale-bonus{
-        padding: 55px 35px 55px 55px;
-        background-size: 150px;
-        left: calc(73%);
-        top: -215px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 3rem;
-        font-family: londrina_solidregular;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(18.5%);
-        top: -165px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 1.6rem;
-    }
      .features-bot-paragraph{
         font-size: 1.5rem;
          line-height: 1.6rem;
@@ -989,6 +792,9 @@
     .banner{
         margin: 0 1.5% 0 1.5%;
         width: calc(100% - 3%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .hero-text p{
         font-size: 2rem;
@@ -1072,11 +878,6 @@
     /*PRESALE HEADER*/
     .header-presale{
         padding-top: 0px;
-    }
-    .sale-box{
-        width: 90%;
-        margin: 0 5%;
-      
     }
     .sale-bar{
         margin-top: 0px;
@@ -1299,23 +1100,6 @@
         line-height: 1.4rem;
         margin: 30px 1.5%;
     }
-    .ribbon-pre-sale-bonus{
-        padding: 35px 15px 35px 35px;
-        background-size: 80px;
-        left: calc(77%);
-        top: -135px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 1.7rem;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(15.5%);
-        top: -115px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 1.2rem;
-    }
      .features-bot-paragraph{
         font-size: 1.4rem;
          line-height: 1.5rem;
@@ -1397,23 +1181,6 @@
         font-size: 1.3rem;
         line-height: 1.4rem;
         margin: 30px 1.5%;
-    }
-    .ribbon-pre-sale-bonus{
-        padding: 35px 15px 35px 35px;
-        background-size: 80px;
-        left: calc(75%);
-        top: -135px;
-    }
-    .ribbon-pre-sale-bonus p{
-        font-size: 1.7rem;
-    }
-    .ribbon-pre-sale-bonus-contact{
-        position: absolute;
-        left: calc(11.5%);
-        top: -115px;
-    }
-    .ribbon-pre-sale-bonus-contact p{
-        font-size: 1.1rem;
     }
      .features-bot-paragraph{
         font-size: 1.4rem;

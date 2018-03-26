@@ -16,7 +16,7 @@ h1 {
 }
 body {
     background-color: cadetblue;
-    font-size: 32px;
+    font-size: 20px;
 }
 p {
     color: #fff;
@@ -189,14 +189,14 @@ header{
 .header-right{
     display: inline-block;
     margin: 0;
-    width: 50%
+    background-color: aqua;
+    padding: 0;
 }
 .header-sale{
     display: none;
 }
-.sale-box{
 
-  height: 90%;
+.sale-box{
   text-align: center;
   border: 10px solid transparent;
   border-radius: 10px;
@@ -204,6 +204,7 @@ header{
   -webkit-border-image: -webkit-linear-gradient(top, #4894b2 0%, #e1635c 100%);
   border-image: linear-gradient(to bottom, #4894b2 0%, #e1635c 100%);
   border-image-slice: 1; 
+/*  height: 73.2%;*/
 }
 
 .sale-time{
@@ -254,11 +255,15 @@ header{
 }
 /*BAR*/
 .sale-bar{
-    width: 90%;
-    text-align: center;
-    margin-left: 20px;
-    margin-top: 20px;
-    padding-bottom: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.sale-bar-content{
+    background-color: chartreuse;
+    width: 100%;
 }
 .sale-bar-progress{
     display: block;
@@ -332,11 +337,15 @@ header{
     text-align: right;
     color: #1266ed;
 }
+
+/*LEFT*/
 .header-left{
-    width: 55%;
     display: inline-block;
+    background-color: black;
+    margin: 0;
 }
 .hero-banner{
+    margin: 0;
     text-align: center;
 }
 .hero-banner img{
@@ -361,7 +370,7 @@ header{
   color: #33b6df;
 }
 .header-available{
-    margin-top: 100px;
+    margin-top: 44px;
     text-align: center;
     font-family: comfortaaregular;
 }
@@ -402,21 +411,27 @@ header{
     border: 8px solid orangered;
     padding: 30px 60px;
     text-align: center;
-    
 }
+
+.button-buy-pre-sale-token-container,
 .button-whitepaper-container{
-    display: none;
+    background-color: chartreuse;
+    border: 5px solid blue;
+    height: 70px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* display: none;*/
 }
-.button-token-container,
-.button-whitepaper-container{
+.button-token-containerbutton-token-container{
     margin-top: 50px;
-    display: none;
+   /* display: none;*/
     text-align: center;
    
 }
 .button-token-container a,
 .button-token-container-2 a,
-.button-whitepaper-container a
 {
     margin: 0;
     display: block;
@@ -1063,9 +1078,6 @@ footer a{
 .header-presale .sale-box .sale-text{
     margin-top: 50px;
 }
-.header-presale .sale-bar{
-    margin-top: 250px;
-}
 .header-presale .progresbar-green{
     width: 0;
 }
@@ -1089,30 +1101,32 @@ footer a{
     margin: 0;
     display: block;
 }
-.pre-sale-button-container{
-    display: block;
-    width: 80%;
-    margin: 0 10%;
-}
-.pre-sale-button-buy-token-container,
-.pre-sale-button-container-whitepaper,
+
+
+
 .pre-sale-button-buy-token-container-mobile{
     margin-top: 30px;
     text-align: center;   
+    width: 30
 }
-.pre-sale-button-buy-token-container a,
-.pre-sale-button-container-whitepaper a,
+.button-container{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+    width: 100%;
+}
 .pre-sale-button-buy-token-container-mobile a
 {
     margin: 0;
     display: block;
+    font-size: 2rem;
 }
-.pre-sale-button-buy-token-container,
 .pre-sale-button-buy-token-container-mobile{
-    background-color: deepskyblue;
-   
+    /*background-color: deepskyblue;
+   */
 }
-.pre-sale-button-buy-token-container a,
 .pre-sale-button-buy-token-container-mobile a{
     color: white;
     border-color: deepskyblue;
@@ -1196,22 +1210,45 @@ footer a{
 .pre-sale-and-bonus-title{
     padding-top: 20px;
 }
-
+.sale-marketing-box{
+    background-color: hotpink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    
+}
 .ribbon-pre-sale-bonus{
+    display: inline-block;
     text-align: center;
     background-image: url("resources/img/bonus%20container.png");
-    padding: 55px 35px 55px 55px;
-	background-size: 150px;
+    padding: 45px 45px 45px 45px;
+	background-size: 70%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    background-color: rgba(184, 134, 11, 0.45);
     
-    position: absolute;
-    left: calc(85.5%);
-    top: -45px;
+    position: relative;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 15%;
+    margin-bottom: -11%;
+}
+.ribbon-pre-sale-bonus img{
+   display: none;
+}
+.ribbon-pre-sale-bonus-text{
+    /*position: absolute;
+    left: 0;
+    top: 0;*/
+  
 }
 .ribbon-pre-sale-bonus p{
-    
-    font-size: 3rem;
+    color: white;
+    font-size: 2.1rem;
     font-family: londrina_solidregular;
 }
 .ribbon-pre-sale-bonus-container{
@@ -1221,12 +1258,19 @@ footer a{
   
 }
 .ribbon-pre-sale-bonus-contact{
-    position: absolute;
-    left: calc(55.5%);
-    top: -25px;
+    display: inline-block;
+    background-color: yellow;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    width: auto;
 }
 .ribbon-pre-sale-bonus-contact p{
     color: red;
     font-family: londrina_solidregular;
-     font-size: 2rem;
+    font-size: 1rem;
+}
+.ribbon-pre-sale-bonus-contact a{
+    font-size: 2rem;
 }
