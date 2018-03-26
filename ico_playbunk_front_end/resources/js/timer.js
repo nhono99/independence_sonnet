@@ -1,9 +1,9 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 15, 2018 11:59:00").getTime();
+var countDownDate = new Date("Apr 15, 2018 23:59:59").getTime();
 
 // Update the count down every 1 second
 var countDownTimerFunc = setInterval(function() {
-	console.log("hi");
+	/*console.log("hi");*/
    
 
     // Get todays date and time

@@ -1,83 +1,8 @@
 @media only screen and (max-width:1366px){
-   nav{
-       background-color: rgba(255, 255, 255, 0);
-    }
-/*    nav ul li{
+   
+    nav ul li{
         text-align: center;
-        margin: 0;
-        padding: 0;
-        
-    }*/
-    nav{
-        background-image: url("/resources/img/nav%20mobile.png")
-        background-size: contain;
-        height: 83px;
-    }
-    .nav-icon-container{
-        text-align: center;
-        vertical-align: middle;
-        display: block;
-      
-    }
-    .mobile-nav-icon{
-        color: white;
-        margin-top: 1%;
-        display: inline-block;
-        padding-top: 6px;
-        padding-left: 12px;
-        padding-right: 12px;
-        border-radius: 15px;
-		border: 2px solid #795f8f;
-		background-color: #795f8f;
-        
-    }
-    
-    .main-nav{
-        display: block;
-        float: right;
-        display: none;
-		width: 210px;
-		margin-right: 0;
-        text-align: center;
-        background-color: white;
-    }
-    .main-nav li{
-		height: 50px;
-		width: 100%;
-		text-align: center;
-		
-		margin: 2px;
-        margin-top: 0px;
-		font-size: 60%;
-	}
-	.main-nav li a{
-        text-align: center;
-		display: inline-block;
-        color: #4a365b;
-	}
-    .main-nav li{display: block;}
-    .main-nav li a:link,
-    .main-nav li a:visited{
-        display: inline-block;
-        border: 0;
-        padding: 10px;
-        font-size: 100%;
-    }
-    .main-nav li a:hover,
-    .main-nav li a:active{
-       border: 0;
-    }
-    .nav-container
-    {
-        z-index: 9999; /*always on top of other elements*/
-    }
-    
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited{
-        padding: 10px 0;
-    }
-    .sticky .main-nav{
-        margin-top: 10px;
+        margin: 0 10px;    
     }
     .header-left{
         
@@ -129,8 +54,82 @@
     }
 }
 @media only screen and (max-width:1024px){
-   .nav-icon-container{
-     
+    nav{
+       background-color: rgba(255, 255, 255, 0);
+    }
+/*    nav ul li{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        
+    }*/
+    nav{
+        background-image: url("/resources/img/nav%20mobile.png")
+        background-size: contain;
+        height: 83px;
+    }
+    .nav-icon-container{
+        text-align: center;
+        vertical-align: middle;
+        display: block;
+    }
+    .mobile-nav-icon{
+        color: white;
+        margin-top: 1%;
+        display: inline-block;
+        padding-top: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-radius: 15px;
+		border: 2px solid #795f8f;
+		background-color: #795f8f;
+    }
+    .main-nav{
+        display: block;
+        float: right;
+        display: none;
+		width: 210px;
+		margin-right: 0;
+        text-align: center;
+        background-color: white;
+    }
+    .main-nav li{
+		height: 50px;
+		width: 100%;
+		text-align: center;
+		margin: 2px;
+        margin-top: 0px;
+		font-size: 60%;
+	}
+	.main-nav li a{
+        text-align: center;
+		display: inline-block;
+        color: #4a365b;
+	}
+    .main-nav li{display: block;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: inline-block;
+        border: 0;
+        padding: 10px;
+        font-size: 100%;
+    }
+    .main-nav li a:hover,
+    .main-nav li a:active{
+       border: 0;
+    }
+    .nav-container
+    {
+        z-index: 9999; /*always on top of other elements*/
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 10px 0;
+    }
+    .sticky .main-nav{
+        margin-top: 10px;
+    }
+    .nav-icon-container{
     }
      /*HEADER*/
     .header-left{
