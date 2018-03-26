@@ -81,6 +81,14 @@ section h3{
     color: white;
      font-family: londrina_solidregular;
 }
+#mobile-nav-modal{
+   /* background-color: black; */
+    position: absolute; 
+    top: 0;
+    right: 0; left: 100%; 
+    height: 100vh; 
+    z-index: -1;
+}
 nav{
     background-image: url("resources/img/nav%20bar%20lining.png");
     background-repeat: no-repeat;
@@ -126,8 +134,7 @@ nav ul li{
     width: 100px;
     margin-top: 5px;
     margin-left: 6.5%;
-    display: none;
-  
+    display: none; 
 }
 .logo-link{
     position: absolute;
@@ -140,7 +147,7 @@ nav ul li{
     padding-top: 0px;
     margin-top: 0;
     width: 100%;
-    /*background-color: aqua;*/
+   /* height: 100vh;*/
 }
 .nav-whitepaper-link{
     position: relative;
