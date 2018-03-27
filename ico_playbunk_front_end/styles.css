@@ -1,3 +1,4 @@
+/*BASE---------------------------------------------------------*/
 *{
     padding: 0;
     margin: 0;
@@ -68,7 +69,7 @@ div{
   /*  margin: 0 10%;*/
 }
 body{
-    background-image: url("resources/img/bg%20pattern.jpg");
+    background-image: url("resources/img/bgpattern.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -89,16 +90,19 @@ section h3{
     height: 100vh; 
     z-index: -1;
 }
+
+/*BASE---------------------------------------------------------*/
 nav{
-    background-image: url("resources/img/nav%20bar%20lining.png");
+    background-image: url("resources/img/navbar.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 115px;
+    height: 50px;
     display: block;
     position: fixed;
     text-align: center;
     width: 100%;
     z-index: 1;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
 }
 nav div{
     margin-top: 12px;
@@ -182,6 +186,7 @@ header{
     text-align: center;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; /*for desktop*/
 }
 .banner p, .banner h3{
     color: black;
@@ -204,7 +209,8 @@ header{
   -webkit-border-image: -webkit-linear-gradient(top, #4894b2 0%, #e1635c 100%);
   border-image: linear-gradient(to bottom, #4894b2 0%, #e1635c 100%);
   border-image-slice: 1; 
-/*  height: 73.2%;*/
+  /*height: 73.2%;*/
+   /* padding-bottom: 0px;*/
 }
 
 .sale-time{
@@ -260,6 +266,8 @@ header{
     align-items: center;
     justify-content: center;
     background-color: blueviolet;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .sale-bar-content{
     background-color: chartreuse;
@@ -395,10 +403,10 @@ header{
 	background-size: 45px;
 }
 .header-available .header-available-currency:nth-child(2) p{
-    background-image: url("resources/img/Ethereum%20logo.png");
+    background-image: url("resources/img/Ethereumlogo.png");
 }
 .header-available .header-available-currency:nth-child(3) p{
-    background-image: url("resources/img/bitcoin%20logo.png");
+    background-image: url("resources/img/bitcoinlogo.png");
 }
 .header-available div{
     margin-bottom: 15px;
@@ -609,61 +617,7 @@ header{
    
 }
 /*FEAURES*/
-/*CE*/
-.crypto-exchange{
-    background-color: deepskyblue;
-   /* background-image: url("resources/img/CE%20section.png");
-    background-repeat: no-repeat;*/
-    background-size: cover;
-    width: 100%;
-}
-.crypto-exchange-list{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-}
-.crypto-exchange-list a:nth-of-type(2),
-.crypto-exchange-list a:nth-of-type(3)
-{
-    margin-left: 1rem;
-}
-.crypto-exchange-list img{
-    max-width: 200px;
-}
-.crypto-bot{
-    background-image: url("resources/img/bottom%20CE%20section.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    background-position: center top; 
-    height: 45px;
-}
-/*CE*/
-/*PS*/
-.ps{
-    background-color: #543e53;
-    background-image: url("resources/img/problem%20triangles.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
- 
-}
-.ps-problem{
-    padding-top: 50px;
-}
-.ps-solution{
-   
-}
-.ps-problem-content, .ps-solution-content{
-    margin: 30px 1.5%;
-    font-size: 3rem;
-    height: 419px;
-    text-align: center;
-}
-.ps-solution-content{
-    margin-bottom: 0;
-}
-/*PS*/
+
 /*TOKEN*/
 .token{
    
@@ -672,7 +626,7 @@ header{
    color: #f74646;
 }
 .token-top{
-    background-image: url("resources/img/pre%20sale%20bottom%20division.png");
+    background-image: url("resources/img/presalelowerdivision.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -684,11 +638,11 @@ header{
     margin-bottom: 50px;
 }
 .token-container{
-    background-image: url("resources/img/token%20distribution%20shapes.png");
+    background-image: url("resources/img/bgshapes.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
-    height: 867px;
+  
 }
 .token-container .col{
     margin: 0;
@@ -769,7 +723,7 @@ header{
 .roadmap h3{
     color: #ffcd6a;
     margin-bottom: 50px;
-     transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 .roadmap-content{
       background-color: #33b6df;
@@ -813,18 +767,18 @@ header{
 }
 
 .roadmap-top{
-    background-image: url("resources/img/roadmap%20top%20division.png");
+    background-image: url("resources/img/roadmapupperdivison.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 251px;
+    height: 103px;
 }
 .roadmap-bot{
-    background-image: url("resources/img/roadmap%20bottom%20division.png");
+    background-image: url("resources/img/roadmapbottomdivision.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 184px;
+    height: 55px;
 }
 /*ROADMAP*/
 
@@ -834,13 +788,6 @@ header{
 }
 .allocation-container{
    
-}
-.allocation-top{
-    background-image: url("resources/img/fund%20allocation%20shapes.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 327px;
 }
 .allocation-top h3{
     margin-top: 0px;
@@ -1273,4 +1220,8 @@ footer a{
 }
 .ribbon-pre-sale-bonus-contact a{
     font-size: 2rem;
+}
+/*Mobile----------------------------------------------------------*/
+.mobile{
+    display: none;
 }
